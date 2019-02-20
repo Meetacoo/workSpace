@@ -80,7 +80,7 @@ var bannerConfig = {
 $('#productionBanner').html((HeaderBannerTemplate(bannerConfig)));
 
 var productionLinkConfig = {
-    linkTo: 'http://localhost/wordpress/wp-content/themes/difu-web/pricing.php',
+    linkTo: '/pricing',
     title: '想了解更多产品？',
     button: '查看产品定价',
     description: '我们将以最大的诚信、最饱满的热情与您达成合作。'
