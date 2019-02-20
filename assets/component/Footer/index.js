@@ -33,12 +33,12 @@ function FooterListItemProductInnerHtml(dataSource) {
         var href = dataSource[i].href || '#';
         Default_InnerHtml += '<div class="single-latest-news-area d-flex align-items-center">\n' +
             '                        <div class="news-thumbnail">\n' +
-            '                            <img src="wp-content/themes/difu-web/assets/img/bg-img/8.jpg" alt="">\n' +
+            '                            <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/8.jpg" alt="">\n' +
             '                        </div>\n' +
             '                        <div class="news-content">\n' +
             '                            <a href="' + href + '">' + dataSource[i].subtitle + '</a>\n' +
             '                            <div class="news-meta">\n' +
-            '                                <a href="#" class="post-date"><img src="wp-content/themes/difu-web/assets/img/core-img/pencil.png" alt="">' + dataSource[i].description + '</a>\n' +
+            '                                <a href="#" class="post-date"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/pencil.png" alt="">' + dataSource[i].description + '</a>\n' +
             '                            </div>\n' +
             '                        </div>\n' +
             '                    </div>';
@@ -89,7 +89,7 @@ function footerInnerHtml(dataSource) {
         '                <div class="col-12">\n' +
         '                    <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">\n' +
         '                        <!-- Footer Logo -->\n' +
-        '                        <a href="index.html" class="footer-logo"><img src="wp-content/themes/difu-web/assets/img/core-img/logo.png" alt=""></a>\n' +
+        '                        <a href="index.html" class="footer-logo"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/logo.png" alt=""></a>\n' +
         '                        <!-- Copywrite Text -->\n' +
         '                        <p class="copywrite-text">' + copyRight + '</p>\n' +
         '                    </div>\n' +

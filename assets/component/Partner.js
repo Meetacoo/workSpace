@@ -45,17 +45,17 @@ function partnerInnerHtml(dataSource) {
  */
 function PartnerTemplate() {
     var config = [{
-        src: 'wp-content/themes/difu-web/assets/img/logo/c-logo-1.png'
+        src: 'http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-1.png'
     }, {
-        src: 'wp-content/themes/difu-web/assets/img/logo/c-logo-2.png'
+        src: 'http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-2.png'
     }, {
-        src: 'wp-content/themes/difu-web/assets/img/logo/c-logo-3.png'
+        src: 'http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-3.png'
     }, {
-        src: 'wp-content/themes/difu-web/assets/img/logo/c-logo-4.png'
+        src: 'http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-4.png'
     }, {
-        src: 'wp-content/themes/difu-web/assets/img/logo/c-logo-5.png'
+        src: 'http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-5.png'
     }, {
-        src: 'wp-content/themes/difu-web/assets/img/logo/c-logo-1.png'
+        src: 'http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-1.png'
     }];
     return generateTemplate(partnerInnerHtml(config));
 }

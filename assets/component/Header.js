@@ -16,12 +16,12 @@ function headerInnerphp() {
         '                    <div class="col-12 d-flex justify-content-between">\n' +
         '                        <!-- Logo Area -->\n' +
         '                        <div class="logo">\n' +
-        '                            <a href="index.php"><img src="wp-content/themes/difu-web/assets/img/core-img/logo.png" alt=""></a>\n' +
+        '                            <a href="index.php"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/logo.png" alt=""></a>\n' +
         '                        </div>\n' +
         '                        <!-- Top Contact Info -->\n' +
         '                        <div class="top-contact-info d-flex align-items-center">\n' +
-        '                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="' + address + '"><img src="wp-content/themes/difu-web/assets/img/core-img/placeholder.png" alt=""> <span>' + address + '</span></a>\n' +
-        '                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="' + email + '"><img src="wp-content/themes/difu-web/assets/img/core-img/message.png" alt=""> <span>' + email + '</span></a>\n' +
+        '                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="' + address + '"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/placeholder.png" alt=""> <span>' + address + '</span></a>\n' +
+        '                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="' + email + '"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/message.png" alt=""> <span>' + email + '</span></a>\n' +
         '                        </div>\n' +
         '                    </div>\n' +
         '                </div>\n' +
@@ -119,7 +119,7 @@ function headerInnerphp() {
         '                        </div>\n' +
         '                        <!-- Contact -->\n' +
         '                        <div class="contact">\n' +
-        '                            <a href="#"><img src="wp-content/themes/difu-web/assets/img/core-img/call2.png" alt=""> ' + phone + '</a>\n' +
+        '                            <a href="#"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/call2.png" alt=""> ' + phone + '</a>\n' +
         '                        </div>\n' +
         '                    </nav>\n' +
         '                </div>\n' +
