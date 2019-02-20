@@ -14,7 +14,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>产品定价 - 上海迪付金融有限公司</title>
+    <title>企业介绍 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
     <link rel="icon" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/favicon.ico">
