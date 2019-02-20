@@ -11,7 +11,7 @@ var bannerConfig = {
 $('#industrySolutionBanner').html((HeaderBannerTemplate(bannerConfig)));
 
 var industrySolutionMoreConfig = {
-    linkTo: 'http://localhost/wordpress/wp-content/themes/difu-web/industrySolution.php',
+    linkTo: 'http://localhost/wordpress/wp-content/themes/difu-web/industrySolution',
     title: '想了解更多解决方案？',
     button: '更多解决方案',
     description: '如果您想了解更多关于我们的解决方案请点击上方按钮。'

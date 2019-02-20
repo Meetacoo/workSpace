@@ -4,19 +4,21 @@
  * @returns {string}
  */
 function welcomeBannerInnerHtml(dataSource) {
-    return '<section class="newsletter-area section-padding-100 bg-img jarallax" style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/6.jpg);">\n' +
-        '    <div class="container">\n' +
-        '        <div class="row justify-content-center">\n' +
-        '            <div class="col-12 col-sm-10 col-lg-8">\n' +
-        '                <div class="nl-content text-center">\n' +
-        '                    <h2>' + dataSource.title + '</h2>\n' +
-        '                    <a href="' + dataSource.linkTo + '">' + dataSource.button + '</a>\n' +
-        '                    <p>' + dataSource.description + '</p>\n' +
+    return '<div class="section" style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/6.jpg);">\n' +
+        '    <section class="newsletter-area section-padding-100 bg-img jarallax">\n' +
+        '        <div class="container">\n' +
+        '            <div class="row justify-content-center">\n' +
+        '                <div class="col-12 col-sm-10 col-lg-8">\n' +
+        '                    <div class="nl-content text-center">\n' +
+        '                        <h2>' + dataSource.title + '</h2>\n' +
+        '                        <a href="' + dataSource.linkTo + '">' + dataSource.button + '</a>\n' +
+        '                        <p>' + dataSource.description + '</p>\n' +
+        '                    </div>\n' +
         '                </div>\n' +
         '            </div>\n' +
         '        </div>\n' +
-        '    </div>\n' +
-        '</section>'
+        '    </section>'
+        '</div>'
 }
 
 /**
