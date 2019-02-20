@@ -1,0 +1,53 @@
+/**
+ * Copyright: Copyright (C) 2018 sitb.software,All Rights Reserved
+ * author: yangyao(873241789@qq.com)
+ * date: 2019/2/14
+ */
+.banner-area {
+    background: #f9f9ff;
+}
+
+.banner-area .fullscreen {
+    height: 750px !important;
+}
+
+.banner-left h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.banner-left h1 {
+    margin: 20px 0;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+    .banner-left h1 {
+        font-size: 30px;
+    }
+}
+
+.banner-left .primary-btn:hover {
+    box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
+}
+
+@media (max-width: 767px) {
+    .banner-left {
+        margin-top: 100px;
+    }
+}
+
+/* 第二屏*/
+.section-second-box {
+    display: flex;
+    align-items: center;
+}
+.media-feature .icon {
+    font-size: 60px;
+    color: #007bff;
+}
+.media-feature h3 {
+    font-size: 20px;
+}

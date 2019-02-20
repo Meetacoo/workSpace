@@ -1,0 +1,67 @@
+/*common begin*/
+.paragraph {
+    text-indent: 2em;
+}
+
+/*common end*/
+
+/*header begin*/
+.classynav ul .helpCenter .megamenu .single-mega.cn-col-4 li:first-child {
+    border-bottom: 1px solid #ddd;
+}
+
+.header-intro {
+    color: #fff;
+}
+
+.classy-menu .classynav .nav-item .nav-link.active {
+    color: #ffbb38;
+}
+
+/*header end*/
+
+/*breadcrumb-area begin*/
+.breadcrumb-area .breadcrumb-content {
+    text-align: center;
+}
+
+/*breadcrumb-area end*/
+
+/*post side-area begin*/
+.single-widget-area .credit-tabs-content .nav-tabs .nav-item {
+    width: 30%;
+    margin-right: 3%;
+}
+
+@media only screen and (max-width: 992px) {
+    .sidebar-area {
+        display: none;
+    }
+}
+
+/*post side-area end*/
+
+/*bottom connect begin*/
+.newsletter-area .nl-content a {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    background-color: #ffbb38;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    z-index: 20;
+    padding: 0 20px;
+    margin-top: 60px;
+}
+
+/*bottom connect end*/

@@ -1,0 +1,144 @@
+/**
+ * Copyright: Copyright (C) 2018 sitb.software,All Rights Reserved
+ * author: yangyao(873241789@qq.com)
+ * date: 2019/2/13
+ */
+.roadmap-area{
+    overflow: hidden;
+}
+
+.roadmap-area .owl-nav div {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.roadmap-area .owl-nav .owl-prev {
+    left: auto;
+    right: 5%;
+}
+
+.roadmap-area .owl-nav div:hover{
+    color: #fa758e;
+}
+
+.roadmap-area .owl-carousel .owl-stage-outer {
+    overflow: visible;
+}
+
+.section-padding{
+    padding: 90px 0;
+}
+.heading h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.heading h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.space-10{
+    height: 10px;
+}
+.space-30{
+    height: 30px;
+}
+.space-60{
+    height: 60px;
+}
+
+.owl-carousel .owl-item .single-item img {
+    width: auto;
+    display: inline-block;
+}
+
+.owl-carousel .owl-item .single-roadmap-img img {
+    width: auto;
+    display: inline-block;
+}
+
+.roadmap-item {
+    padding: 30px;
+}
+
+map {
+    padding: 20px 15px;
+}
+
+.single-roadmap.road-left {
+    position: relative;
+    z-index: 2;
+    padding-left: 24%;
+}
+
+.single-roadmap.road-left::before {
+    position: absolute;
+    content: "";
+    height: 66.5%;
+    width: 1px;
+    background: #004cff;
+    bottom: 10.5%;
+    left: 1%;
+    z-index: -1;
+}
+
+.single-roadmap.road-left::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 120%;
+    background: #004cff;
+    top: 23%;
+    right: -21%;
+    z-index: -1;
+}
+
+.single-roadmap.road-right {
+    position: relative;
+    z-index: 2;
+    padding-top: 29%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.single-roadmap.road-right::before {
+    position: absolute;
+    content: "";
+    height: 74.5%;
+    width: 1px;
+    background: #004cff;
+    bottom: 0;
+    left: 12.5%;
+    z-index: -1;
+}
+
+.single-roadmap.road-right::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 97.5%;
+    background: #004cff;
+    bottom: 0;
+    right: -10%;
+    z-index: -1;
+}
+
+.single-roadmap-img img {
+    width: 120px;
+    height: 120px;
+}
+.owl-carousel .owl-item .single-roadmap-img img {
+    width: auto;
+    display: inline-block;
+}
+
+.roadmap-text h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+/* start nav icon*/
+.nav-left-model,
+.nav-right-model {
+    color: #004cff;
+}

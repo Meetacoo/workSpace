@@ -1,0 +1,78 @@
+/**
+ * Copyright: Copyright (C) 2018 sitb.software,All Rights Reserved
+ * author: yangyao(873241789@qq.com)
+ * date: 2019/2/12
+ */
+/*start production style*/
+.single-about-area {
+    z-index: 2;
+    position: relative;
+    margin: 50px 0;
+    background: url(../../img/bg-img/about-bg.png) no-repeat;
+}
+
+.single-logo-wrapper {
+    display: table;
+    height: 60px;
+    width: 100%;
+}
+
+.single-item {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.owl-carousel .owl-item .single-item img {
+    width: auto;
+    display: inline-block;
+}
+
+.about-mid-text h1 {
+    font-size: 31px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.about-mid-img {
+    position: relative;
+    left: -18%;
+    margin-right: 30px;
+    width: 580px;
+}
+
+.gradient-btn.about-btn i {
+    padding-right: 5px;
+    font-size: 16px;
+}
+
+.single-about-img img {
+    width: 162px;
+    height: 110px;
+}
+
+.single-about-text h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+a.single-about {
+    color: #cbe5ff;
+    display: block;
+    padding: 50px 25px;
+    text-align: center;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+a.single-about:hover {
+    box-shadow: 1px 2px 4px #949494;
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+/*end production style*/

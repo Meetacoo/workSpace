@@ -1,0 +1,77 @@
+/**
+ * Copyright: Copyright (C) 2018 sitb.software,All Rights Reserved
+ * author: yangyao(873241789@qq.com)
+ * date: 2019/2/13
+ */
+.service-area{
+    padding: 130px 0px 100px;
+}
+.service-area2 .service-items{
+    padding: 35px 25px;
+    z-index: 9;
+}
+.service-area2 .service-items img{
+    margin-bottom: 25px;
+}
+.service-area2 .service-items:before{
+    width: 100%;
+    height: 100%;
+    background: url(../../img/icon/7.png) no-repeat center center / cover;
+    z-index: -9;
+    opacity: 0;
+}
+.service-area2 .service-items.active:before,
+.service-area2 .service-items:hover:before{
+    opacity: 1;
+}
+
+.section-title{
+    margin-bottom: 50px;
+}
+.section-title h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.resorce-area2 .section-title h2{
+    color: #fff;
+}
+.section-title2 h2{
+    color: #fff;
+}
+.service-items {
+    background: #fff;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.1);
+    padding: 30px 20px 35px 80px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.service-items:hover{
+    box-shadow: 0px 3px 20px rgba(0,0,0,.1);
+}
+.service-items:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: #ff7700;
+    height: 3px;
+    content: "";
+}
+.service-items:hover:before{
+    width: 100%;
+}
+.service-items h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.service-items span{
+    position: absolute;
+    left: 20px;
+    top: 35px;
+}
+.service-items span:before{
+    font-size: 40px;
+    color: #ff7700;
+}

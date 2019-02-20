@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a86d702-bfd5-4def-a08c-ea57bc09f656" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/difu-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/HeaderBanner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Partner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/WelcomeBanner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/production.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/sideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/classy-nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/component/partner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/container/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/container/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/container/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/container/industrySolution.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/container/industrySolutionDetailed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/container/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/container/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/container/production.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/container/productionDetailed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/credit-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fullPage.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/classy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/classy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/classy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/classy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/about-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/add2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/bg_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/bg_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/bg_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/bg_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg-img/bg_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/call2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/message2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/core-img/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/help/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo/c-logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo/c-logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo/c-logo-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo/c-logo-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo/c-logo-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/production/about-icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/production/about-icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/production/about-icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/production/production-jvhe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/production/roadmap-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/production/roadmap-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/production/roadmap-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/production/roadmap-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/developerCenter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/elements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/industrySolution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/industrySolutionDetailed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/joinUs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/pricing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/production.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/container/productionDetailed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/jquery/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/plugins/fullPage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/plugins/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/plugins/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshot.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/difu-web.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>迪付官网</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/functions.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-976" />
+    <option name="width" value="991" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="difu-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="difu-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="difu-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="difu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550576093191" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a86d702-bfd5-4def-a08c-ea57bc09f656" name="Default Changelist" comment="" />
+      <created>1550574237846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550574237846</updated>
+      <workItem from="1550574241197" duration="1754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1754000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-976" y="0" width="991" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19548872" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/difu-web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

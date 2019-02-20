@@ -1,0 +1,85 @@
+/**
+ * Copyright: Copyright (C) 2018 sitb.software,All Rights Reserved
+ * author: yangyao(873241789@qq.com)
+ * date: 2019/2/14
+ */
+.section {
+    padding: 7em 0;
+}
+.custom-tabs .border-right {
+    border-right: 1px solid #dee2e6;
+}
+
+@media (max-width: 767px) {
+    .custom-tabs .border-right {
+        border-right: none;
+    }
+}
+
+.custom-tabs .nav-pills .nav-link {
+    padding-left: 0;
+    font-size: 26px;
+    font-weight: 100;
+    color: #adb5bd;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.custom-tabs .nav-pills .nav-link span {
+    font-size: 18px;
+}
+
+.custom-tabs .nav-pills .nav-link.active {
+    background: none;
+    color: #007bff;
+    padding-left: 20px;
+    position: relative;
+}
+
+.custom-tabs .nav-pills .nav-link.active:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    width: 2px;
+    background: #5AC8D8;
+}
+
+.custom-tabs .tab-pane .icon {
+    font-size: 60px;
+    display: block;
+    color: #007bff;
+}
+
+.custom-tabs .tab-pane h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.custom-tabs .border-right {
+    border-right: 1px solid #dee2e6;
+}
+
+@media (max-width: 767px) {
+    .custom-tabs .border-right {
+        border-right: none;
+    }
+}
+
+.element-animate {
+    opacity: 0;
+    visibility: hidden;
+}
+
+header .top-bar .cta-btn {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #5AC8D8;
+}
+
+header .top-bar .cta-btn:hover {
+    -webkit-box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.1);
+}
