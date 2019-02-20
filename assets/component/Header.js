@@ -4,7 +4,7 @@
  * date: 2019/2/11
  */
 
-function headerInnerHtml() {
+function headerInnerphp() {
     var address = '浦东新区，芳华路139号';
     var email = 'shangfudata@com';
     var phone = '4000591990';
@@ -16,12 +16,12 @@ function headerInnerHtml() {
         '                    <div class="col-12 d-flex justify-content-between">\n' +
         '                        <!-- Logo Area -->\n' +
         '                        <div class="logo">\n' +
-        '                            <a href="index.html"><img src="src/img/core-img/logo.png" alt=""></a>\n' +
+        '                            <a href="index.php"><img src="wp-content/themes/difu-web/assets/img/core-img/logo.png" alt=""></a>\n' +
         '                        </div>\n' +
         '                        <!-- Top Contact Info -->\n' +
         '                        <div class="top-contact-info d-flex align-items-center">\n' +
-        '                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="' + address + '"><img src="src/img/core-img/placeholder.png" alt=""> <span>' + address + '</span></a>\n' +
-        '                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="' + email + '"><img src="src/img/core-img/message.png" alt=""> <span>' + email + '</span></a>\n' +
+        '                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="' + address + '"><img src="wp-content/themes/difu-web/assets/img/core-img/placeholder.png" alt=""> <span>' + address + '</span></a>\n' +
+        '                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="' + email + '"><img src="wp-content/themes/difu-web/assets/img/core-img/message.png" alt=""> <span>' + email + '</span></a>\n' +
         '                        </div>\n' +
         '                    </div>\n' +
         '                </div>\n' +
@@ -46,30 +46,30 @@ function headerInnerHtml() {
         '                            <!-- Nav Start -->\n' +
         '                            <div class="classynav">\n' +
         '                                <ul>\n' +
-        '                                    <li class="nav-item"><a class="nav-link index" href="index.html">首页</a></li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="about.html">企业介绍</a></li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="production.html">产品介绍</a>\n' +
+        '                                    <li class="nav-item"><a class="nav-link index" href="localhost/wordpress">首页</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="about.php">企业介绍</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="wp-content/themes/difu-web/production.php">产品介绍</a>\n' +
         '                                        <ul class="dropdown">\n' +
-        '                                            <li><a href="production-detailed.html">聚合支付</a></li>\n' +
-        '                                            <li><a href="production-detailed.html">互联网支付</a></li>\n' +
-        '                                            <li><a href="production-detailed.html">数据查询</a></li>\n' +
-        '                                            <li><a href="production-detailed.html">会员账户系统</a></li>\n' +
-        '                                            <li><a href="production-detailed.html">预付费卡系统</a></li>\n' +
-        '                                            <li><a href="production-detailed.html">代收代付系统</a></li>\n' +
+        '                                            <li><a href="production-detailed.php">聚合支付</a></li>\n' +
+        '                                            <li><a href="production-detailed.php">互联网支付</a></li>\n' +
+        '                                            <li><a href="production-detailed.php">数据查询</a></li>\n' +
+        '                                            <li><a href="production-detailed.php">会员账户系统</a></li>\n' +
+        '                                            <li><a href="production-detailed.php">预付费卡系统</a></li>\n' +
+        '                                            <li><a href="production-detailed.php">代收代付系统</a></li>\n' +
         '                                        </ul>\n' +
         '                                    </li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="industrySolution.html">行业解决方案</a>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="industrySolution.php">行业解决方案</a>\n' +
         '                                        <ul class="dropdown">\n' +
-        '                                            <li><a href="industrySolution-detailed.html">运营商行业</a></li>\n' +
-        '                                            <li><a href="industrySolution-detailed.html">教育行业</a></li>\n' +
-        '                                            <li><a href="industrySolution-detailed.html">消金行业</a></li>\n' +
-        '                                            <li><a href="industrySolution-detailed.html">保险行业</a></li>\n' +
-        '                                            <li><a href="industrySolution-detailed.html">境外收单行业</a></li>\n' +
-        '                                            <li><a href="industrySolution-detailed.html">B2B/B2C</a></li>\n' +
+        '                                            <li><a href="industrySolution-detailed.php">运营商行业</a></li>\n' +
+        '                                            <li><a href="industrySolution-detailed.php">教育行业</a></li>\n' +
+        '                                            <li><a href="industrySolution-detailed.php">消金行业</a></li>\n' +
+        '                                            <li><a href="industrySolution-detailed.php">保险行业</a></li>\n' +
+        '                                            <li><a href="industrySolution-detailed.php">境外收单行业</a></li>\n' +
+        '                                            <li><a href="industrySolution-detailed.php">B2B/B2C</a></li>\n' +
         '                                        </ul>\n' +
         '                                    </li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="pricing.html">产品定价</a></li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="developerCenter.html">开发者中心</a>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="wp-content/themes/difu-web/pricing.php">产品定价</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="developerCenter.php">开发者中心</a>\n' +
         '                                        <ul class="dropdown">\n' +
         '                                            <li><a href="#">概述和基础</a></li>\n' +
         '                                            <li><a href="#">接入</a></li>\n' +
@@ -77,7 +77,7 @@ function headerInnerHtml() {
         '                                            <li><a href="#">论坛</a></li>\n' +
         '                                        </ul>\n' +
         '                                    </li>\n' +
-        '                                    <li class="nav-item helpCenter"><a class="nav-link" href="help.html">帮助中心</a>\n' +
+        '                                    <li class="nav-item helpCenter"><a class="nav-link" href="help.php">帮助中心</a>\n' +
         '                                        <div class="megamenu">\n' +
         '                                            <ul class="single-mega cn-col-4">\n' +
         '                                                <li><a href="#">了解并开始使用</a></li>\n' +
@@ -110,16 +110,16 @@ function headerInnerHtml() {
         '                                            </ul>\n' +
         '                                        </div>\n' +
         '                                    </li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="post.html">论坛</a></li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="https://www.lagou.com/gongsi/171527.html" target="_blank">加入我们</a></li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="login.html">登录</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="post.php">论坛</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="https://www.lagou.com/gongsi/171527.php" target="_blank">加入我们</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="login.php">登录</a></li>\n' +
         '                                </ul>\n' +
         '                            </div>\n' +
         '                            <!-- Nav End -->\n' +
         '                        </div>\n' +
         '                        <!-- Contact -->\n' +
         '                        <div class="contact">\n' +
-        '                            <a href="#"><img src="src/img/core-img/call2.png" alt=""> ' + phone + '</a>\n' +
+        '                            <a href="#"><img src="wp-content/themes/difu-web/assets/img/core-img/call2.png" alt=""> ' + phone + '</a>\n' +
         '                        </div>\n' +
         '                    </nav>\n' +
         '                </div>\n' +
@@ -145,5 +145,5 @@ $(function () {
 });
 
 function HeaderTemplate() {
-    return generateTemplate(headerInnerHtml());
+    return generateTemplate(headerInnerphp());
 }

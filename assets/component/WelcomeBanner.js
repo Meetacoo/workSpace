@@ -4,7 +4,7 @@
  * @returns {string}
  */
 function welcomeBannerInnerHtml(dataSource) {
-    return '<section class="newsletter-area section-padding-100 bg-img jarallax" style="background-image: url(src/img/bg-img/6.jpg);">\n' +
+    return '<section class="newsletter-area section-padding-100 bg-img jarallax" style="background-image: url(wp-content/themes/difu-web/assets/img/bg-img/6.jpg);">\n' +
         '    <div class="container">\n' +
         '        <div class="row justify-content-center">\n' +
         '            <div class="col-12 col-sm-10 col-lg-8">\n' +

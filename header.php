@@ -12,13 +12,13 @@
     <title>【迪付金融官网】 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="src/img/core-img/favicon.ico">
+    <link rel="icon" href="wp-content/themes/difu-web/assets/img/core-img/favicon.ico">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/common.css">
-    <link rel="stylesheet" href="src/css/component/partner.css">
-    <link rel="stylesheet" href="src/css/container/index.css">
+    <link rel="stylesheet" href="wp-content/themes/difu-web/assets/css/style.css">
+    <link rel="stylesheet" href="wp-content/themes/difu-web/assets/css/common.css">
+    <link rel="stylesheet" href="wp-content/themes/difu-web/assets/css/component/partner.css">
+    <link rel="stylesheet" href="wp-content/themes/difu-web/assets/css/container/index.css">
 
 </head>
 
