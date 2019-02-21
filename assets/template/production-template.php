@@ -12,6 +12,7 @@
 ?>
 <?php
 $args = array(
+
     array(
         'href' => 'http://localhost/wordpress/production/detailed',
         'src' => 'http://localhost/wordpress/wp-content/themes/difu-web/assets/img/production/about-icon-1.png',
@@ -48,15 +49,20 @@ $args = array(
         'label' => '代收代付系统',
         'value' => '向已授权的账户发起实时或批量的收付费指令，能够安全、准确地完成收付费单位发起的委托收款、付款指令.'
     ));
+$titles = array(
+    'title' => '核心产品',
+    'subTitle' => 'Core production',
+);
 ?>
+
 <div class="single-about-area wow fadeInUp">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="section-heading text-center mb-100">
                     <div class="line"></div>
-                    <p>Core production</p>
-                    <h2>核心产品</h2>
+                    <p><?php printf($titles["subTitle"])?></p>
+                    <h2><?php printf($titles["title"])?></h2>
                 </div>
             </div>
         </div>
@@ -64,7 +70,8 @@ $args = array(
         <div class="row">
             <?php foreach ($args as $key => $value) { ?>
                 <div class="col-lg-4 top-contact-info">
-                    <a href="<?php printf($value["href"]) ?>" class="single-about" data-toggle="tooltip" data-placement="top"
+                    <a href="<?php printf($value["href"]) ?>" class="single-about" data-toggle="tooltip"
+                       data-placement="top"
                        title="点击查看详细">
                         <div class="single-about-img">
                             <img src="<?php printf($value["src"]) ?>" alt="">
