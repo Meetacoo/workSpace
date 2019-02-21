@@ -46,9 +46,9 @@ function headerInnerphp() {
         '                            <!-- Nav Start -->\n' +
         '                            <div class="classynav">\n' +
         '                                <ul>\n' +
-        '                                    <li class="nav-item"><a class="nav-link index" href="localhost/wordpress">首页</a></li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="about.php">企业介绍</a></li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="wp-content/themes/difu-web/production.php">产品介绍</a>\n' +
+        '                                    <li class="nav-item"><a class="nav-link index" href="http://localhost/wordpress">首页</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/about">企业介绍</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/production">产品介绍</a>\n' +
         '                                        <ul class="dropdown">\n' +
         '                                            <li><a href="production-detailed.php">聚合支付</a></li>\n' +
         '                                            <li><a href="production-detailed.php">互联网支付</a></li>\n' +
@@ -58,7 +58,7 @@ function headerInnerphp() {
         '                                            <li><a href="production-detailed.php">代收代付系统</a></li>\n' +
         '                                        </ul>\n' +
         '                                    </li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="industrySolution.php">行业解决方案</a>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/industrySolution.php">行业解决方案</a>\n' +
         '                                        <ul class="dropdown">\n' +
         '                                            <li><a href="industrySolution-detailed.php">运营商行业</a></li>\n' +
         '                                            <li><a href="industrySolution-detailed.php">教育行业</a></li>\n' +
@@ -68,7 +68,7 @@ function headerInnerphp() {
         '                                            <li><a href="industrySolution-detailed.php">B2B/B2C</a></li>\n' +
         '                                        </ul>\n' +
         '                                    </li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="wp-content/themes/difu-web/pricing.php">产品定价</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/pricing">产品定价</a></li>\n' +
         '                                    <li class="nav-item"><a class="nav-link" href="developerCenter.php">开发者中心</a>\n' +
         '                                        <ul class="dropdown">\n' +
         '                                            <li><a href="#">概述和基础</a></li>\n' +
@@ -77,7 +77,7 @@ function headerInnerphp() {
         '                                            <li><a href="#">论坛</a></li>\n' +
         '                                        </ul>\n' +
         '                                    </li>\n' +
-        '                                    <li class="nav-item helpCenter"><a class="nav-link" href="help.php">帮助中心</a>\n' +
+        '                                    <li class="nav-item helpCenter"><a class="nav-link" href="http://localhost/wordpress/help">帮助中心</a>\n' +
         '                                        <div class="megamenu">\n' +
         '                                            <ul class="single-mega cn-col-4">\n' +
         '                                                <li><a href="#">了解并开始使用</a></li>\n' +
@@ -110,9 +110,9 @@ function headerInnerphp() {
         '                                            </ul>\n' +
         '                                        </div>\n' +
         '                                    </li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="post.php">论坛</a></li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="https://www.lagou.com/gongsi/171527.php" target="_blank">加入我们</a></li>\n' +
-        '                                    <li class="nav-item"><a class="nav-link" href="login.php">登录</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/post">论坛</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="https://www.lagou.com/gongsi/j171527.html#company_navs" target="_blank">加入我们</a></li>\n' +
+        '                                    <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/login">登录</a></li>\n' +
         '                                </ul>\n' +
         '                            </div>\n' +
         '                            <!-- Nav End -->\n' +
