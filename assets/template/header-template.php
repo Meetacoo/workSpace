@@ -84,7 +84,7 @@
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
                                                         href="http://localhost/wordpress/pricing">产品定价</a></li>
-                                <li class="nav-item"><a class="nav-link" href="developerCenter.php">开发者中心</a>
+                                <li class="nav-item"><a class="nav-link" href="../../developerCenter.php">开发者中心</a>
                                     <ul class="dropdown">
                                         <li><a href="#">概述和基础</a></li>
                                         <li><a href="#">接入</a></li>
