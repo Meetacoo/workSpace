@@ -15,20 +15,10 @@ $args = array(
     "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-2.png",
     "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-3.png",
     "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-4.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-5.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-1.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-2.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-3.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-4.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-5.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-1.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-2.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-3.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-4.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-5.png",
-)
+    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-5.png"
+);
 ?>
-<div class="about-area">
+<div class="about-area" id="about">
     <div class="space-30"></div>
     <div>
         <div class="row">
@@ -41,23 +31,17 @@ $args = array(
         </div>
         <div class="row box-model">
             <div class="col-lg-12">
-                <div class="logo-carousel owl-carousel text-center owl-loaded owl-drag">
-                    <div class="owl-stage-outer">
-                        <div class="owl-stage"
-                             style="transform: translate3d(-2489px, 0px, 0px); transition: all 0.25s ease 0s; width: 4980px;">
-                            <?php foreach ($args as $key => $value) { ?>
-                                <div class="owl-item  active" style="width: 281.2px; margin-right: 30px;">
-                                    <div class="single-logo-wrapper">
-                                        <div class="single-item">
-                                            <img src="<?php printf($value) ?>" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php } ?>
+                <div class="logo-carousel owl-carousel text-center">
+                    <?php foreach ($args as $key => $value) { ?>
+                        <div class="single-logo-wrapper">
+                            <div class="single-item">
+                                <img src="<?php printf($value) ?>" alt="">
+                            </div>
                         </div>
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
