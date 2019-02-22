@@ -28,16 +28,11 @@
 
 <body>
 <!-- Preloader -->
-<div id="preloader"></div>
-<!-- ##### Header Area Start ##### -->
-
-<!-- ##### Header Area Start ##### -->
-<div id="header"></div>
-<!-- ##### Header Area End ##### -->
-
-<!-- ##### Breadcrumb Area Start ##### -->
-<div id="aboutBanner"></div>
-<!-- ##### Breadcrumb Area End ##### -->
+<?php
+get_template_part('assets/template/preloader','template');
+get_template_part('assets/template/header','template');
+get_template_part('assets/template/banner/about');
+?>
 
 <!-- ##### About Area Start ###### -->
 <section class="about-area section-padding-100-0">
@@ -464,25 +459,15 @@
     </div>
 </section>
 <!-- ##### Miscellaneous Area End ###### -->
-<!-- ##### Newsletter Area Start ###### -->
-<div id="aboutCooperation"></div>
-<!-- ##### Newsletter Area End ###### -->
-
-<!-- ##### Footer Area Start ##### -->
-<div id="footer"></div>
-<!-- ##### Footer Area Start ##### -->
+<?php
+get_template_part('assets/template/welcome/about');
+get_template_part('assets/template/footer','template');
+?>
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
 <script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/jquery/jquery-2.2.4.min.js"></script>
 <script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/plugins/owl.carousel.min.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/utils/template.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Preloader.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Header.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/HeaderBanner.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/WelcomeBanner.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Footer/index.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/common.js"></script>
 <script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/about.js"></script>
 <!-- Popper js -->
 <script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/bootstrap/popper.min.js"></script>
