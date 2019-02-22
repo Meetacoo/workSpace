@@ -53,36 +53,5 @@ $titles = array(
     'title' => '核心产品',
     'subTitle' => 'Core production',
 );
+productionTemplate($args, $titles);
 ?>
-
-<div class="single-about-area wow fadeInUp">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-heading text-center mb-100">
-                    <div class="line"></div>
-                    <p><?php printf($titles["subTitle"])?></p>
-                    <h2><?php printf($titles["title"])?></h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <?php foreach ($args as $key => $value) { ?>
-                <div class="col-lg-4 top-contact-info">
-                    <a href="<?php printf($value["href"]) ?>" class="single-about" data-toggle="tooltip"
-                       data-placement="top"
-                       title="点击查看详细">
-                        <div class="single-about-img">
-                            <img src="<?php printf($value["src"]) ?>" alt="">
-                        </div>
-                        <div class="single-about-text">
-                            <h4><?php printf($value["label"]) ?></h4>
-                            <p><?php printf($value["value"]) ?></p>
-                        </div>
-                    </a>
-                </div>
-            <?php } ?>
-        </div>
-    </div>
-</div>
