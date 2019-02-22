@@ -31,7 +31,7 @@
 <!-- Preloader -->
 <?php
 get_template_part('assets/template/preloader','template');
-get_template_part('assets/template/header','template');
+get_header();
 get_template_part('assets/template/banner/developer');
 ?>
 
@@ -892,7 +892,7 @@ get_template_part('assets/template/banner/developer');
 <!-- ##### Newsletter Area Start ###### -->
 <?php
 get_template_part('assets/template/welcome/index');
-get_template_part('assets/template/footer','template');
+get_footer();
 ?>
 <!-- ##### Footer Area Start ##### -->
 
@@ -901,14 +901,7 @@ get_template_part('assets/template/footer','template');
 <script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri().'/assets/utils/template.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Preloader.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Header.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/HeaderBanner.js'; ?>"></script>
 <script src="<?php echo get_template_directory_uri().'/assets/component/sideBar.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/WelcomeBanner.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Footer/index.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/common.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/joinUs.js'; ?>"></script>
 <script src="<?php echo get_template_directory_uri().'/assets/js/container/developerCenter.js'; ?>"></script>
 <!-- Popper js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>

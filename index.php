@@ -28,7 +28,7 @@
 <!-- Preloader -->
 <?php
 get_template_part('assets/template/preloader','template');
-get_template_part('assets/template/header','template');
+get_header();
 ?>
 
 <!-- ##### Header Area End ##### -->
@@ -216,7 +216,7 @@ get_template_part('assets/template/core/index');
 get_template_part('assets/template/indexProduction','template');
 get_template_part('assets/template/partner','template');
 get_template_part('assets/template/welcome/index');
-get_template_part('assets/template/footer','template');
+get_footer();
 ?>
 <!-- ##### Footer Area Start ##### -->
 

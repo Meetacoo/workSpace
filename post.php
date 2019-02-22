@@ -17,19 +17,20 @@
     <title>论坛 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/style.css">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/common.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
 
 </head>
 
 <body>
 <!-- Preloader -->
-<div id="preloader"></div>
-<!-- ##### Header Area Start ##### -->
-<div id="header"></div>
+<?php
+get_template_part('assets/template/preloader','template');
+get_header();
+?>
 <!-- ##### Header Area End ##### -->
 
 <!-- ##### News Area Start ##### -->
@@ -322,7 +323,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -331,11 +331,10 @@
 <!-- ##### News Area End ##### -->
 
 <!-- ##### Newsletter Area Start ###### -->
-div#<div id="postSubscribe"></div>
-<!-- ##### Newsletter Area End ###### -->
-
-<!-- ##### Footer Area Start ##### -->
-<div id="footer"></div>
+<?php
+get_template_part('assets/template/welcome/post');
+get_footer();
+?>
 <!-- ##### Footer Area Start ##### -->
 
 <!-- ##### All Javascript Script ##### -->

@@ -30,7 +30,7 @@
 <!-- Preloader -->
 <?php
 get_template_part('assets/template/preloader','template');
-get_template_part('assets/template/header','template');
+get_header();
 get_template_part('assets/template/banner/industrySolution');
 ?>
 <!-- ##### Services Area End ###### -->
@@ -109,7 +109,7 @@ get_template_part('assets/template/banner/industrySolution');
 <!-- ##### Newsletter Area Start ###### -->
 <?php
 get_template_part('assets/template/welcome/industrySolution');
-get_template_part('assets/template/footer','template');
+get_footer();
 ?>
 <!-- ##### Footer Area Start ##### -->
 

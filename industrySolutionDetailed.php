@@ -25,14 +25,14 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/fullPage.min.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/component/partner.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/industrySolutionDetailed.css'; ?>">
-
 </head>
 
 <body>
 <!-- Preloader -->
-<div id="preloader"></div>
-<!-- ##### Header Area Start ##### -->
-<div id="header"></div>
+<?php
+get_template_part('assets/template/preloader','template');
+get_header();
+?>
 <!-- ##### Header Area End ##### -->
 
 <div id="fullpage">
@@ -161,7 +161,9 @@
         </section>
         <!-- ##### Newsletter Area End ###### -->
         <!-- ##### Footer Area Start ##### -->
-        <div id="footer"></div>
+        <?php
+        get_footer();
+        ?>
         <!-- ##### Footer Area Start ##### -->
     </div>
 </div>
@@ -171,12 +173,6 @@
 <script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
 <script src="<?php echo get_template_directory_uri().'/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
 <script src="<?php echo get_template_directory_uri().'/assets/js/plugins/fullPage.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/utils/template.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Preloader.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Header.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Footer/index.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Partner.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/common.js'; ?>"></script>
 <script src="<?php echo get_template_directory_uri().'/assets/js/container/industrySolutionDetailed.js'; ?>"></script>
 <!-- Popper js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>

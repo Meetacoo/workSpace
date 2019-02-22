@@ -31,12 +31,12 @@
 <!-- Preloader -->
 <?php
 get_template_part('assets/template/preloader','template');
-get_template_part('assets/template/header','template');
+get_header();
 get_template_part('assets/template/banner/production');
 get_template_part('assets/template/core/production');
 get_template_part('assets/template/indexProduction','template');
 get_template_part('assets/template/welcome/production');
-get_template_part('assets/template/footer','template');
+get_footer();
 ?>
 <!-- ##### Footer Area Start ##### -->
 <!-- ##### All Javascript Script ##### -->

@@ -31,7 +31,7 @@
 <!-- Preloader -->
 <?php
 get_template_part('assets/template/preloader','template');
-get_template_part('assets/template/header','template');
+get_header();
 ?>
 <!-- ##### Header Area End ##### -->
 
@@ -343,7 +343,7 @@ get_template_part('assets/template/header','template');
 <!-- ##### Newsletter Area Start ###### -->
 <?php
 get_template_part('assets/template/welcome/index');
-get_template_part('assets/template/footer','template');
+get_footer();
 ?>
 <!-- ##### Footer Area Start ##### -->
 

@@ -29,7 +29,7 @@
 <!-- Preloader -->
 <?php
 get_template_part('assets/template/preloader','template');
-get_template_part('assets/template/header','template');
+get_header();
 get_template_part('assets/template/banner/pricing');
 ?>
 <!-- ##### Breadcrumb Area End ##### -->
@@ -85,7 +85,7 @@ get_template_part('assets/template/banner/pricing');
 <!-- ##### Newsletter Area Start ###### -->
 <?php
 get_template_part('assets/template/welcome/pricing');
-get_template_part('assets/template/footer','template');
+get_footer();
 ?>
 <!-- ##### Footer Area Start ##### -->
 
