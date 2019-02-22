@@ -12,21 +12,25 @@
     <title>【迪付金融官网】 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/style.css">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/common.css">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/component/partner.css">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/container/index.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
+    <link rel="stylesheet"
+          href="<?php echo get_template_directory_uri().'/assets/css/component/partner.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/index.css'; ?>">
 
+    <!-- wordpress head-->
 </head>
 
 <body>
 <!-- Preloader -->
-<div id="preloader"></div>
-<!-- ##### Header Area Start ##### -->
-<div id="header"></div>
+<?php
+get_template_part('assets/template/preloader','template');
+get_template_part('assets/template/header','template');
+?>
+
 <!-- ##### Header Area End ##### -->
 <!-- ##### Hero Area Start ##### -->
 <div class="hero-area">
@@ -35,7 +39,7 @@
         <div class="single-slide bg-img">
             <!-- Background Image-->
             <div class="slide-bg-img bg-img bg-overlay"
-                 style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/1.jpg);"></div>
+                 style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/1.jpg)'; ?>"></div>
             <!-- Welcome Text -->
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center">
@@ -59,7 +63,7 @@
         <div class="single-slide bg-img">
             <!-- Background Image-->
             <div class="slide-bg-img bg-img bg-overlay"
-                 style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/5.jpg);"></div>
+                 style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/5.jpg)'; ?>"></div>
             <!-- Welcome Text -->
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center">
@@ -83,7 +87,7 @@
         <div class="single-slide bg-img">
             <!-- Background Image-->
             <div class="slide-bg-img bg-img bg-overlay"
-                 style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/1.jpg);"></div>
+                 style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/1.jpg)'; ?>"></div>
             <!-- Welcome Text -->
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center">
@@ -107,7 +111,7 @@
         <div class="single-slide bg-img">
             <!-- Background Image-->
             <div class="slide-bg-img bg-img bg-overlay"
-                 style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/5.jpg);"></div>
+                 style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/5.jpg)'; ?>"></div>
             <!-- Welcome Text -->
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center">
@@ -131,14 +135,16 @@
 <!-- ##### Hero Area End ##### -->
 
 <!-- ##### Services Area Start ###### -->
-<div id="core"></div>
+<?php
+get_template_part('assets/template/indexCore','template');
+?>
 <!-- ##### Services Area End ###### -->
 
 <!-- ##### Call To Action Start ###### -->
 <section class="cta-area d-flex flex-wrap">
     <!-- Cta Thumbnail -->
     <div class="cta-thumbnail bg-img jarallax"
-         style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/5.jpg);"></div>
+         style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/5.jpg)'; ?>"></div>
 
     <!-- Cta Content -->
     <div class="cta-content">
@@ -199,44 +205,35 @@
                     <div class="cta-btn">
                         <a href="http://localhost/wordpress/pricing" class="btn credit-btn box-shadow">查看详情</a>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- ##### Call To Action End ###### -->
-<div id="production"></div>
-<div id="partner"></div>
-<!-- ##### Newsletter Area Start ###### -->
-<div id="indexLink"></div>
-<!-- ##### Newsletter Area End ###### -->
-<!-- ##### Footer Area Start ##### -->
-<div id="footer"></div>
+<!--<div id="production"></div>-->
+<?php
+get_template_part('assets/template/indexProduction','template');
+get_template_part('assets/template/partner','template');
+get_template_part('assets/template/indexWelcome');
+get_template_part('assets/template/footer','template');
+?>
 <!-- ##### Footer Area Start ##### -->
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/jquery/jquery-2.2.4.min.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/plugins/owl.carousel.min.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/utils/template.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Preloader.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Header.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Footer/index.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Core.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/production.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Partner.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/WelcomeBanner.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/common.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/index.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/component/partner.js'; ?>"></script>
+
 <!-- Popper js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/bootstrap/popper.min.js"></script>
+<script src="<?php echo get_template_directory_uri().'assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/plugins/plugins.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/active.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>
