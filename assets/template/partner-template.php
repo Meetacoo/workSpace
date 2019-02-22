@@ -11,11 +11,11 @@
 ?>
 <?php
 $args = array(
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-1.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-2.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-3.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-4.png",
-    "http://localhost/wordpress/wp-content/themes/difu-web/assets/img/logo/c-logo-5.png"
+    "/assets/img/logo/c-logo-1.png",
+    "/assets/img/logo/c-logo-2.png",
+    "/assets/img/logo/c-logo-3.png",
+    "/assets/img/logo/c-logo-4.png",
+    "/assets/img/logo/c-logo-5.png"
 );
 ?>
 <div class="about-area" id="about">
@@ -35,7 +35,7 @@ $args = array(
                     <?php foreach ($args as $key => $value) { ?>
                         <div class="single-logo-wrapper">
                             <div class="single-item">
-                                <img src="<?php printf($value) ?>" alt="">
+                                <img src="<?php printf(get_template_directory_uri().$value) ?>" alt="">
                             </div>
                         </div>
                     <?php } ?>
