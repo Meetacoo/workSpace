@@ -17,28 +17,22 @@
     <title>产品定价 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/style.css">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/common.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
 
 </head>
 
 <body>
 <!-- Preloader -->
-<div id="preloader"></div>
-<!-- ##### Header Area Start ##### -->
-<div id="header"></div>
-<!-- ##### Header Area End ##### -->
-
-<!-- ##### Breadcrumb Area Start ##### -->
-<div id="pricingBanner"></div>
+<?php
+get_template_part('assets/template/preloader','template');
+get_template_part('assets/template/header','template');
+get_template_part('assets/template/banner/pricing');
+?>
 <!-- ##### Breadcrumb Area End ##### -->
-
-<!-- ##### Services Area Start ###### -->
-<div id="core"></div>
-<!-- ##### Services Area End ###### -->
 
 <!-- ##### Special Feature Area Start ###### -->
 <section class="special-feature-area d-flex flex-wrap">
@@ -60,7 +54,7 @@
     </div>
     <!-- Special Feature Thumbnail -->
     <div class="special-feature-thumbnail bg-img jarallax"
-         style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/20.jpg);"></div>
+         style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/20.jpg'; ?>);"></div>
 </section>
 <!-- ##### Special Feature Area End ###### -->
 
@@ -68,7 +62,7 @@
 <section class="special-feature-area style-2 d-flex flex-wrap">
     <!-- Special Feature Thumbnail -->
     <div class="special-feature-thumbnail bg-img jarallax"
-         style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/21.jpg);"></div>
+         style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/21.jpg'; ?>);"></div>
     <!-- Special Feature Content -->
     <div class="special-feature-content section-padding-100">
         <div class="feature-text">
@@ -89,34 +83,24 @@
 <!-- ##### Special Feature Area End ###### -->
 
 <!-- ##### Newsletter Area Start ###### -->
-<div id="pricingContact"></div>
-<!-- ##### Newsletter Area End ###### -->
-
-
-<!-- ##### Footer Area Start ##### -->
 <div id="footer"></div>
+<?php
+get_template_part('assets/template/welcome/pricing');
+get_template_part('assets/template/footer','template');
+?>
 <!-- ##### Footer Area Start ##### -->
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/jquery/jquery-2.2.4.min.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/utils/template.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Preloader.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Header.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/HeaderBanner.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/WelcomeBanner.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Footer/index.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Core.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/common.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/pricing.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
 <!-- Popper js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/bootstrap/popper.min.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/plugins/plugins.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/active.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>
