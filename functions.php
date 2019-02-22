@@ -35,7 +35,7 @@ function coreTemplate($args)
                                 <i class="<?php printf($value["icon"]) ?>"></i>
                             </div>
                             <div class="text">
-                                <h4><?php printf($value["label"]) ?></h4>
+                                <h5><?php printf($value["label"]) ?></h5>
                                 <p><?php printf($value["value"]) ?></p>
                             </div>
                         </div>
