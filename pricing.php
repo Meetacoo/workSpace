@@ -83,7 +83,6 @@ get_template_part('assets/template/banner/pricing');
 <!-- ##### Special Feature Area End ###### -->
 
 <!-- ##### Newsletter Area Start ###### -->
-<div id="footer"></div>
 <?php
 get_template_part('assets/template/welcome/pricing');
 get_template_part('assets/template/footer','template');
