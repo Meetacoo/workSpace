@@ -136,7 +136,7 @@ get_template_part('assets/template/header','template');
 
 <!-- ##### Services Area Start ###### -->
 <?php
-get_template_part('assets/template/indexCore','template');
+get_template_part('assets/template/core/index');
 ?>
 <!-- ##### Services Area End ###### -->
 
@@ -215,7 +215,7 @@ get_template_part('assets/template/indexCore','template');
 <?php
 get_template_part('assets/template/indexProduction','template');
 get_template_part('assets/template/partner','template');
-get_template_part('assets/template/welcome/indexWelcome');
+get_template_part('assets/template/welcome/index');
 get_template_part('assets/template/footer','template');
 ?>
 <!-- ##### Footer Area Start ##### -->
