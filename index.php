@@ -227,7 +227,7 @@ get_template_part('assets/template/footer','template');
 <script src="<?php echo get_template_directory_uri().'/assets/component/partner.js'; ?>"></script>
 
 <!-- Popper js -->
-<script src="<?php echo get_template_directory_uri().'assets/js/bootstrap/popper.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
