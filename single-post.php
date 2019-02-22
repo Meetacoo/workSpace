@@ -388,12 +388,6 @@ get_footer();
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/utils/template.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Preloader.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Header.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/WelcomeBanner.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/Footer/index.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/common.js'; ?>"></script>
 <script src="<?php echo get_template_directory_uri().'/assets/js/container/post.js'; ?>"></script>
 <!-- Popper js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
