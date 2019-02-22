@@ -17,26 +17,23 @@
     <title>开发者中心 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/style.css">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/common.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/container/help.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/help.css'; ?>">
 
 </head>
 
 <body>
 <!-- Preloader -->
-<div id="preloader"></div>
-<!-- ##### Header Area Start ##### -->
-<div id="header"></div>
-<!-- ##### Header Area End ##### -->
-
-<!-- ##### Hero Area Start ##### -->
-<div id="joinUsBanner"></div>
-<!-- ##### Hero Area End ##### -->
+<?php
+get_template_part('assets/template/preloader','template');
+get_template_part('assets/template/header','template');
+get_template_part('assets/template/banner/developer');
+?>
 
 <!-- End Banner Area -->
 
@@ -893,33 +890,32 @@
 <!-- Catagory Area -->
 
 <!-- ##### Newsletter Area Start ###### -->
-<div id="joinUsWelcome"></div>
-<!-- ##### Newsletter Area End ###### -->
-
-<!-- ##### Footer Area Start ##### -->
-<div id="footer"></div>
+<?php
+get_template_part('assets/template/welcome/index');
+get_template_part('assets/template/footer','template');
+?>
 <!-- ##### Footer Area Start ##### -->
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/jquery/jquery-2.2.4.min.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/utils/template.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Preloader.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Header.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/HeaderBanner.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/sideBar.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/WelcomeBanner.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/component/Footer/index.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/common.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/joinUs.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/developerCenter.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/utils/template.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/component/Preloader.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/component/Header.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/component/HeaderBanner.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/component/sideBar.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/component/WelcomeBanner.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/component/Footer/index.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/container/common.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/container/joinUs.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/container/developerCenter.js'; ?>"></script>
 <!-- Popper js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/bootstrap/popper.min.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/plugins/plugins.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/active.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>
