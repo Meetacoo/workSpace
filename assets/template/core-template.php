@@ -41,33 +41,6 @@ $args = array(
         'value' => '向已授权的账户发起实时或批量的收付费指令，能够安全、准确地完成收付费单位发起的委托收款、付款指令.',
         'icon' => 'icon-piggy-bank'
     ));
-?>
-<div class="single-about-area wow fadeInUp">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-heading text-center mb-100">
-                    <div class="line"></div>
-                    <p>Core strength</p>
-                    <h2>核心实力</h2>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <?php foreach ($args as $key => $value) { ?>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-service-area d-flex mb-100">
-                        <div class="icon">
-                            <i class="<?php printf($value["icon"]) ?>"></i>
-                        </div>
-                        <div class="text">
-                            <h4><?php printf($value["label"]) ?></h4>
-                            <p><?php printf($value["value"]) ?></p>
-                        </div>
-                    </div>
-                </div>
-            <?php } ?>
-        </div>
-    </div>
-</div>
+coreTemplate($args)
+?>
