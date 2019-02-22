@@ -72,10 +72,10 @@ get_template_part('assets/template/banner/about');
         <div class="section-heading white">
             <div class="line"></div>
             <p>Defoe data</p>
-            <h2>迪福数据</h2>
+            <h2>迪付数据</h2>
         </div>
         <h6 class="mb-0">
-            迪福数据是国内唯一与六大国际卡组织均建立系统和网络联接的第三方服务机构，于2014年获得红杉资本投资。在互联网金融爆发增长的时代，迪福数据将进一步提升技术服务能力，扩大业务纵深，致力于打造中国支付行业的领先数据处理服务商，帮助合作伙伴联接众多交易场景和用户，处理海量交易，努力成为中国支付产业链的参与者和重要一环，助力互联网+新时代的支付基础设施建设。.</h6>
+            迪付数据是国内唯一与六大国际卡组织均建立系统和网络联接的第三方服务机构，于2014年获得红杉资本投资。在互联网金融爆发增长的时代，迪付数据将进一步提升技术服务能力，扩大业务纵深，致力于打造中国支付行业的领先数据处理服务商，帮助合作伙伴联接众多交易场景和用户，处理海量交易，努力成为中国支付产业链的参与者和重要一环，助力互联网+新时代的支付基础设施建设。.</h6>
 
         <div class="d-flex flex-wrap align-items-center justify-content-between">
             <!-- Single Cool Facts -->
@@ -111,7 +111,7 @@ get_template_part('assets/template/banner/about');
         </div>
     </div>
     <!-- Cta Thumbnail -->
-    <div class="cta-thumbnail bg-img jarallax" style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/19.jpg'; ?>'; ?>);"></div>
+    <div class="cta-thumbnail bg-img jarallax" style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/19.jpg'; ?>);"></div>
 </section>
 <!-- ##### Call To Action End ###### -->
 
