@@ -17,7 +17,7 @@ $args = array(
         'icon' => 'icon-profits'
     ),
     array(
-        'label' => '聚合支付',
+        'label' => '互联网支付',
         'value' => '基于PC平台的网上系统对接和部署，使商户能够通过银行卡和数字钱包在互联网上完成支付交易.',
         'icon' => 'icon-money-1'
         ),
