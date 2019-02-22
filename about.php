@@ -17,12 +17,12 @@
     <title>企业介绍 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/style.css">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/common.css">
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/difu-web/assets/css/container/about.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/about.css'; ?>">
 
 </head>
 
@@ -56,7 +56,7 @@ get_template_part('assets/template/banner/about');
             </div>
             <div class="col-12 col-md-6">
                 <div class="about-thumbnail mb-100">
-                    <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/14.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/14.jpg'; ?>'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@ get_template_part('assets/template/banner/about');
         </div>
     </div>
     <!-- Cta Thumbnail -->
-    <div class="cta-thumbnail bg-img jarallax" style="background-image: url(http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/19.jpg);"></div>
+    <div class="cta-thumbnail bg-img jarallax" style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/19.jpg'; ?>'; ?>);"></div>
 </section>
 <!-- ##### Call To Action End ###### -->
 
@@ -155,7 +155,7 @@ get_template_part('assets/template/banner/about');
             <div class="roadmap-item">
                 <div class="single-roadmap text-center road-left">
                     <div class="single-roadmap-img">
-                        <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/production/roadmap-1.png" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-1.png'; ?>'; ?>" alt="">
                     </div>
                     <div class="space-30"></div>
                     <div class="roadmap-text">
@@ -171,7 +171,7 @@ get_template_part('assets/template/banner/about');
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <div class="single-roadmap-img">
-                                <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/production/roadmap-2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-2.png'; ?>'; ?>" alt="">
                             </div>
                         </div>
                         <div class="col-7">
@@ -187,7 +187,7 @@ get_template_part('assets/template/banner/about');
             <div class="roadmap-item">
                 <div class="single-roadmap text-center road-left">
                     <div class="single-roadmap-img">
-                        <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/production/roadmap-4.png" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-4.png'; ?>'; ?>" alt="">
                     </div>
                     <div class="space-30"></div>
                     <div class="roadmap-text">
@@ -203,7 +203,7 @@ get_template_part('assets/template/banner/about');
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <div class="single-roadmap-img">
-                                <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/production/roadmap-5.png" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-5.png'; ?>'; ?>" alt="">
                             </div>
 
                         </div>
@@ -220,7 +220,7 @@ get_template_part('assets/template/banner/about');
             <div class="roadmap-item">
                 <div class="single-roadmap text-center road-left">
                     <div class="single-roadmap-img">
-                        <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/production/roadmap-4.png" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-4.png'; ?>'; ?>" alt="">
                     </div>
                     <div class="space-30"></div>
                     <div class="roadmap-text">
@@ -236,7 +236,7 @@ get_template_part('assets/template/banner/about');
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <div class="single-roadmap-img">
-                                <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/production/roadmap-5.png" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-5.png'; ?>'; ?>" alt="">
                             </div>
                         </div>
                         <div class="col-7">
@@ -274,7 +274,7 @@ get_template_part('assets/template/banner/about');
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-team-member-area mb-100">
                     <div class="team-thumb">
-                        <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/15.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/15.jpg'; ?>'; ?>" alt="">
                         <!-- View More -->
                         <div class="view-more">
                             <a href="#">+</a>
@@ -291,7 +291,7 @@ get_template_part('assets/template/banner/about');
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-team-member-area mb-100">
                     <div class="team-thumb">
-                        <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/16.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/16.jpg'; ?>'; ?>" alt="">
                         <!-- View More -->
                         <div class="view-more">
                             <a href="#">+</a>
@@ -308,7 +308,7 @@ get_template_part('assets/template/banner/about');
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-team-member-area mb-100">
                     <div class="team-thumb">
-                        <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/17.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/17.jpg'; ?>'; ?>" alt="">
                         <!-- View More -->
                         <div class="view-more">
                             <a href="#">+</a>
@@ -325,7 +325,7 @@ get_template_part('assets/template/banner/about');
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-team-member-area mb-100">
                     <div class="team-thumb">
-                        <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/18.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/18.jpg'; ?>'; ?>" alt="">
                         <!-- View More -->
                         <div class="view-more">
                             <a href="#">+</a>
@@ -350,7 +350,7 @@ get_template_part('assets/template/banner/about');
             <!-- Add Area -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="add-area mb-100 wow fadeInUp" data-wow-delay="100ms">
-                    <a href="#"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/add.png" alt=""></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/add.png'; ?>'; ?>" alt=""></a>
                 </div>
             </div>
 
@@ -367,7 +367,7 @@ get_template_part('assets/template/banner/about');
                         <!-- Single Contact Content -->
                         <div class="single-contact-content d-flex align-items-center">
                             <div class="icon">
-                                <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/location.png" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/assets/img/core-img/location.png'; ?>'; ?>" alt="">
                             </div>
                             <div class="text">
                                 <p>上海市浦东新区芳华路 <br> 陆家嘴互联网创新基地 <br> A栋139号101室</p>
@@ -376,7 +376,7 @@ get_template_part('assets/template/banner/about');
                         <!-- Single Contact Content -->
                         <div class="single-contact-content d-flex align-items-center">
                             <div class="icon">
-                                <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/call.png" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/assets/img/core-img/call.png'; ?>'; ?>" alt="">
                             </div>
                             <div class="text">
                                 <p>400-059-1990</p>
@@ -386,7 +386,7 @@ get_template_part('assets/template/banner/about');
                         <!-- Single Contact Content -->
                         <div class="single-contact-content d-flex align-items-center">
                             <div class="icon">
-                                <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/message2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/assets/img/core-img/message2.png'; ?>'; ?>" alt="">
                             </div>
                             <div class="text">
                                 <p>df@difufinance.com</p>
@@ -409,15 +409,15 @@ get_template_part('assets/template/banner/about');
                     <!-- Single News Area -->
                     <div class="single-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/10.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/10.jpg'; ?>'; ?>" alt="">
                         </div>
                         <div class="news-content">
                             <span>July 18, 2018</span>
                             <a href="#">How to get the best loan online</a>
                             <div class="news-meta">
-                                <a href="#" class="post-author"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/pencil.png" alt=""> Jane
+                                <a href="#" class="post-author"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
                                     Smith</a>
-                                <a href="#" class="post-date"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/calendar.png" alt=""> April 26</a>
+                                <a href="#" class="post-date"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                             </div>
                         </div>
                     </div>
@@ -425,15 +425,15 @@ get_template_part('assets/template/banner/about');
                     <!-- Single News Area -->
                     <div class="single-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/11.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/11.jpg'; ?>" alt="">
                         </div>
                         <div class="news-content">
                             <span>July 18, 2018</span>
                             <a href="#">A new way to finance your dream home</a>
                             <div class="news-meta">
-                                <a href="#" class="post-author"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/pencil.png" alt=""> Jane
+                                <a href="#" class="post-author"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
                                     Smith</a>
-                                <a href="#" class="post-date"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/calendar.png" alt=""> April 26</a>
+                                <a href="#" class="post-date"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                             </div>
                         </div>
                     </div>
@@ -441,15 +441,15 @@ get_template_part('assets/template/banner/about');
                     <!-- Single News Area -->
                     <div class="single-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/12.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/12.jpg'; ?>" alt="">
                         </div>
                         <div class="news-content">
                             <span>July 18, 2018</span>
                             <a href="#">10 tips to get the best loan for you</a>
                             <div class="news-meta">
-                                <a href="#" class="post-author"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/pencil.png" alt=""> Jane
+                                <a href="#" class="post-author"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
                                     Smith</a>
-                                <a href="#" class="post-date"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/calendar.png" alt=""> April 26</a>
+                                <a href="#" class="post-date"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                             </div>
                         </div>
                     </div>
@@ -466,17 +466,17 @@ get_template_part('assets/template/footer','template');
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/jquery/jquery-2.2.4.min.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/plugins/owl.carousel.min.js"></script>
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/container/about.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/container/about.js'; ?>"></script>
 <!-- Popper js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/bootstrap/popper.min.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/plugins/plugins.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="http://localhost/wordpress/wp-content/themes/difu-web/assets/js/active.js"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>
