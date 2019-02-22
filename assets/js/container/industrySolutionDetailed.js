@@ -4,7 +4,6 @@
  * date: 2019/2/13
  */
 
-$('#partner').html(PartnerTemplate());
 $(".logo-carousel").owlCarousel({
     loop: true,
     nav: false,
