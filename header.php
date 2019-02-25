@@ -51,28 +51,31 @@
                                                         href="http://localhost/wordpress/about">企业介绍</a></li>
                                 <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/production">产品介绍</a>
                                     <ul class="dropdown">
-                                        <li><a href="production-detailed.php">聚合支付</a></li>
-                                        <li><a href="production-detailed.php">互联网支付</a></li>
-                                        <li><a href="production-detailed.php">数据查询</a></li>
-                                        <li><a href="production-detailed.php">会员账户系统</a></li>
-                                        <li><a href="production-detailed.php">预付费卡系统</a></li>
-                                        <li><a href="production-detailed.php">代收代付系统</a></li>
+                                        <li><a href="http://localhost/wordpress/productiondetailed">聚合支付</a></li>
+                                        <li><a href="http://localhost/wordpress/productiondetailed">互联网支付</a></li>
+                                        <li><a href="http://localhost/wordpress/productiondetailed">数据查询</a></li>
+                                        <li><a href="http://localhost/wordpress/productiondetailed">会员账户系统</a></li>
+                                        <li><a href="http://localhost/wordpress/productiondetailed">预付费卡系统</a></li>
+                                        <li><a href="http://localhost/wordpress/productiondetailed">代收代付系统</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
-                                                        href="http://localhost/wordpress/industrySolution.php">行业解决方案</a>
+                                                        href="http://localhost/wordpress/industrySolution">行业解决方案</a>
                                     <ul class="dropdown">
-                                        <li><a href="industrySolution-detailed.php">运营商行业</a></li>
-                                        <li><a href="industrySolution-detailed.php">教育行业</a></li>
-                                        <li><a href="industrySolution-detailed.php">消金行业</a></li>
-                                        <li><a href="industrySolution-detailed.php">保险行业</a></li>
-                                        <li><a href="industrySolution-detailed.php">境外收单行业</a></li>
-                                        <li><a href="industrySolution-detailed.php">B2B/B2C</a></li>
+                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">运营商行业</a>
+                                        </li>
+                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">教育行业</a></li>
+                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">消金行业</a></li>
+                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">保险行业</a></li>
+                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">境外收单行业</a>
+                                        </li>
+                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">B2B/B2C</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
                                                         href="http://localhost/wordpress/pricing">产品定价</a></li>
-                                <li class="nav-item"><a class="nav-link" href="../../developerCenter.php">开发者中心</a>
+                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/developerCenter">开发者中心</a>
                                     <ul class="dropdown">
                                         <li><a href="#">概述和基础</a></li>
                                         <li><a href="#">接入</a></li>
@@ -80,8 +83,9 @@
                                         <li><a href="#">论坛</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item helpCenter"><a class="nav-link"
-                                                                   href="http://localhost/wordpress/help">帮助中心</a>
+                                <li class="nav-item helpCenter">
+                                    <a class="nav-link"
+                                       href="http://localhost/wordpress/help">帮助中心</a>
                                     <div class="megamenu">
                                         <ul class="single-mega cn-col-4">
                                             <li><a href="#">了解并开始使用</a></li>
@@ -117,8 +121,7 @@
                                 <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/post">论坛</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
-                                                        href="https://www.lagou.com/gongsi/j171527.html#company_navs"
-                                                        target="_blank">加入我们</a></li>
+                                                        href="http://localhost/wordpress/joinUs">加入我们</a></li>
                                 <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/login">登录</a>
                                 </li>
                             </ul>
@@ -128,7 +131,7 @@
                     <!-- Contact -->
                     <div class="contact">
                         <a href="#"><img
-                                    src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/call2.png"
+                                    src="<?php echo get_template_directory_uri() . '/assets/img/core-img/call2.png' ?>"
                                     alt="">4000591990</a>
                     </div>
                 </nav>

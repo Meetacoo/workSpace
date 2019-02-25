@@ -135,3 +135,11 @@ ul {
 .credit-tabs-content .nav-tabs .nav-link {
     text-align: left;
 }
+
+.tab-pane td {
+    padding: 1rem !important;
+}
+
+.tab-pane p {
+    text-indent: 2em;
+}

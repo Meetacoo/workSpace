@@ -30,13 +30,10 @@
 <body>
 <!-- Preloader -->
 <?php
-//get_template_part('assets/template/preloader','template');
+get_template_part('assets/template/preloader','template');
 get_header();
+get_template_part('assets/template/banner/joinYs');
 ?>
-<!-- ##### Header Area End ##### -->
-
-<!-- ##### Hero Area Start ##### -->
-<div id="joinUsBanner"></div>
 <!-- ##### Hero Area End ##### -->
 
 <!-- End Banner Area -->

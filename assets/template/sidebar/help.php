@@ -9,8 +9,8 @@
 <?php
 $args = array(
     array(
-        'title' => '开始使用',
-        'subtitle' => array(
+        'menu' => '开始使用',
+        'submenu' => array(
             '产品介绍',
             '商务接入流程',
             '接入的产品能够解决怎样的问题',
@@ -22,8 +22,8 @@ $args = array(
         'type' => 'dropdown'
     ),
     array(
-        'title' => '账户管理/管理平台',
-        'subtitle' => array(
+        'menu' => '账户管理/管理平台',
+        'submenu' => array(
             '注册信息修改',
             '账户查询',
             '数据服务',
@@ -35,8 +35,8 @@ $args = array(
         'type' => 'dropdown'
     ),
     array(
-        'title' => '接入开发',
-        'subtitle' => array(
+        'menu' => '接入开发',
+        'submenu' => array(
             '参数的配置',
             '报错数据查询',
             '返回码汇总',
@@ -49,8 +49,8 @@ $args = array(
         'type' => 'dropdown'
     ),
     array(
-        'title' => '费用',
-        'subtitle' => array(
+        'menu' => '费用',
+        'submenu' => array(
             '支付通道标准费用',
             '我司收费',
             '关于发票',
@@ -62,23 +62,23 @@ $args = array(
         'type' => 'dropdown'
     ),
     array(
-        'title' => '安全',
+        'menu' => '安全',
         'id' => 18
     ),
     array(
-        'title' => '免责条款',
+        'menu' => '免责条款',
         'id' => 19
     ),
     array(
-        'title' => '重点商务问题汇总',
+        'menu' => '重点商务问题汇总',
         'id' => 20
     ),
     array(
-        'title' => '重点技术开发问题汇总',
+        'menu' => '重点技术开发问题汇总',
         'id' => 21
     ),
     array(
-        'title' => '邮件&电话&微信沟通界面',
+        'menu' => '邮件&电话&微信沟通界面',
         'id' => 22
     )
 );

@@ -7,10 +7,11 @@
  */
 ?>
 <?php
+$uri = 'http://localhost/wordpress/developerCenter';
 $args = array(
     array(
-        'title' => '概述和基础',
-        'subtitle' => array(
+        'menu' => '概述和基础',
+        'submenu' => array(
             '产品介绍',
             '商务接入流程',
             '接入的产品能够解决怎样的问题',
@@ -22,18 +23,13 @@ $args = array(
         'type' => 'dropdown'
     ),
     array(
-        'title' => '接入',
-        'subtitle' => array(
-            '注册信息修改'
-        ),
-        'id' => array(
-            11
-        ),
-        'type' => 'dropdown'
+        'menu' => '接入指南',
+        'id' => 11,
+        'href' => $uri.''
     ),
     array(
-        'title' => '调试',
-        'subtitle' => array(
+        'menu' => '调试',
+        'submenu' => array(
             '参数的配置',
         ),
         'id' => array(
@@ -42,18 +38,14 @@ $args = array(
         'type' => 'dropdown'
     ),
     array(
-        'title' => '论坛',
-        'subtitle' => array(
+        'menu' => '论坛',
+        'submenu' => array(
             '支付通道标准费用'
         ),
         'id' => array(
             14
         ),
         'type' => 'dropdown'
-    ),
-    array(
-        'title' => '其他',
-        'id' => 15
     )
 );
 sideBarTemplate($args);
