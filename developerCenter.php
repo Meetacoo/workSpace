@@ -44,6 +44,9 @@ get_template_part('assets/template/banner/developer');
             <div class="sidebar-categories col-xl-3 col-lg-4 col-md-5">
                 <div class="head text-center">开发者中心</div>
                 <ul class="nav nav-tabs" id="myTab2" role="tablist">
+                    <?php
+                    get_template_part('assets/template/sidebar/developer');
+                    ?>
                 </ul>
             </div>
 
@@ -900,9 +903,6 @@ get_footer();
 <!-- jQuery-2.2.4 js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/utils/template.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/sideBar.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/developerCenter.js'; ?>"></script>
 <!-- Popper js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- All Plugins js -->
