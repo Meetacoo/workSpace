@@ -17,19 +17,19 @@
     <title>企业介绍 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
+    <link rel="icon" href="<?php echo get_template_directory_uri() . '/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/about.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/common.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/container/about.css'; ?>">
 
 </head>
 
 <body>
 <!-- Preloader -->
 <?php
-get_template_part('assets/template/preloader','template');
+get_template_part('assets/template/preloader', 'template');
 get_header();
 get_template_part('assets/template/banner/about');
 ?>
@@ -46,17 +46,42 @@ get_template_part('assets/template/banner/about');
                         <p>About us</p>
                         <h2>关于我们</h2>
                     </div>
-                    <h6 class="mb-4">迪付（www.difu.com）创立于2015年，是全球领先的云计算及人工智能科技公司。</h6>
+                    <h6 class="mb-4">2016年对于整个互联网金融产业来讲注定是不平凡的一年！</h6>
                     <p class="mb-0 paragraph">
-                        上海迪付金融信息服务有限公司以人才为核心竞争力作为企业发展驱动力，目前大学以上学历员工已占员工总数的63%以上。
-                        目前，上海迪付金融信息服务有限公司业务网络遍及上海、逐步形成向全国其他省市辐射的趋势！ 已为许多客户提供了优质服务，用心赢得了众多企业的信赖和好评，在上海地区逐渐树立起良好品牌形象。</p>
-                    <p class="mb-0 paragraph">
-                        上海迪付金融信息服务有限公司以诚信、实力和产品质量获得业界的高度认可。欢迎各界朋友莅临参观、指导和业务洽谈。</p>
+                        在这一年，互联网金融行业的野蛮生长告一段路，央行牵头展开了互联网金融的专项整治工作，迎来了行业的“监管”元年；
+                        在这一年，疯狂的校园网贷震惊了我们所有人；在这一年，中国互联网金融协会成立了；在这一年，信息披露标准发布；
+                        同样也在这一年，上海上福数据服务有限公司（以下简称上福数据）在上海陆家嘴成立了。</p>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="about-thumbnail mb-100">
-                    <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/14.jpg'; ?>'; ?>" alt="">
+                    <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/14.jpg'; ?>'; ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about-area section-padding-100-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+                <div class="about-thumbnail mb-100">
+                    <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/14.jpg'; ?>'; ?>" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="about-content mb-100">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                        <div class="line"></div>
+                        <p>DiPay</p>
+                        <h2>上福数据</h2>
+                    </div>
+                    <h6 class="mb-4">黄浦江畔的一间朝鲜茶馆里上福数据诞生。</h6>
+                    <p class="mb-0 paragraph">
+                        至今还能清晰的记得几个合伙人创立上福数据时候的情景，黄浦江畔的一间朝鲜茶馆，没错就是金三胖家的茶馆。
+                        在这间茶馆中5位合伙人确定了上福数据的诞生、业务方向、组织架构等等细节问题。在上海浦东一个简陋的仅有30平米的办公室里，憧憬着在未来通过我们的努力让支付变得更加简单、更加方便；
+                        让支付不再是那样的“高深莫测”，让所有的商业模式都可以轻松快捷的拥有符合自身需求的支付方式。</p>
                 </div>
             </div>
         </div>
@@ -71,47 +96,32 @@ get_template_part('assets/template/banner/about');
         <!-- Section Heading -->
         <div class="section-heading white">
             <div class="line"></div>
-            <p>Defoe data</p>
-            <h2>迪付金融</h2>
+            <p>Today</p>
+            <h2> 在今天</h2>
         </div>
-        <h6 class="mb-0">
-            迪付金融是国内唯一与六大国际卡组织均建立系统和网络联接的第三方服务机构，于2014年获得红杉资本投资。在互联网金融爆发增长的时代，迪付金融将进一步提升技术服务能力，扩大业务纵深，致力于打造中国支付行业的领先数据处理服务商，帮助合作伙伴联接众多交易场景和用户，处理海量交易，努力成为中国支付产业链的参与者和重要一环，助力互联网+新时代的支付基础设施建设。.</h6>
-
-        <div class="d-flex flex-wrap align-items-center justify-content-between">
-            <!-- Single Cool Facts -->
-            <div class="single-cool-fact white d-flex align-items-center mt-50">
-                <div class="scf-icon mr-15">
-                    <i class="icon-piggy-bank"></i>
-                </div>
-                <div class="scf-text">
-                    <h2><span class="counter">2015</span></h2>
-                    <p>成立于</p>
-                </div>
-            </div>
-            <!-- Single Cool Facts -->
-            <div class="single-cool-fact white d-flex align-items-center mt-50">
-                <div class="scf-icon mr-15">
-                    <i class="icon-coin"></i>
-                </div>
-                <div class="scf-text">
-                    <h2><span class="counter">350000</span></h2>
-                    <p>合作企业</p>
-                </div>
-            </div>
-            <!-- Single Cool Facts -->
-            <div class="single-cool-fact white d-flex align-items-center mt-50">
-                <div class="scf-icon mr-15">
-                    <i class="icon-diamond"></i>
-                </div>
-                <div class="scf-text">
-                    <h2><span class="counter">14332</span></h2>
-                    <p>吸纳人才</p>
-                </div>
-            </div>
-        </div>
+        <h6 class="mb-0 paragraph">
+            上福数据经过时间的洗礼，经过激烈竞争的市场环境淬炼，为支付产业的上中下环节提供了丰富多样的解决方案。
+            产品涉及到支付各个分支，包括聚合支付平台、互联网支付、银行卡收单、会员账户系统、预付费卡系统、代收代付系统、数据查询系统、数据分析系统等产品和服务。
+            为银联、银行、支付机构、企业商家、个人的支付行为提供安全、可信、定制化的解决方案。</h6>
     </div>
     <!-- Cta Thumbnail -->
-    <div class="cta-thumbnail bg-img jarallax" style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/19.jpg'; ?>);"></div>
+    <div class="cta-thumbnail bg-img jarallax"
+         style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/bg-img/19.jpg'; ?>);"></div>
+</section>
+<section class="cta-area d-flex flex-wrap">
+    <!-- Cta Thumbnail -->
+    <div class="cta-thumbnail bg-img jarallax"
+         style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/bg-img/19.jpg'; ?>);"></div>
+    <!-- Cta Content -->
+    <div class="cta-content">
+        <!-- Section Heading -->
+        <div class="section-heading white">
+            <div class="line"></div>
+            <p>In The Future </p>
+            <h2>在未来</h2>
+        </div>
+        <h6 class="mb-0 paragraph">
+            上福数据将把更多的关注目光落在企业客户端，在帮助企业客户实现支付接入的基础上，在用户运营、账户体系、数据分析挖掘、跨界整合等多个方面做出探索和努力，实现金融、技术、创新、整合、跨界的目标。</h6>
 </section>
 <!-- ##### Call To Action End ###### -->
 
@@ -155,7 +165,8 @@ get_template_part('assets/template/banner/about');
             <div class="roadmap-item">
                 <div class="single-roadmap text-center road-left">
                     <div class="single-roadmap-img">
-                        <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-1.png'; ?>'; ?>" alt="">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-1.png'; ?>'; ?>"
+                             alt="">
                     </div>
                     <div class="space-30"></div>
                     <div class="roadmap-text">
@@ -171,7 +182,8 @@ get_template_part('assets/template/banner/about');
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <div class="single-roadmap-img">
-                                <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-2.png'; ?>'; ?>" alt="">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-2.png'; ?>'; ?>"
+                                     alt="">
                             </div>
                         </div>
                         <div class="col-7">
@@ -187,7 +199,8 @@ get_template_part('assets/template/banner/about');
             <div class="roadmap-item">
                 <div class="single-roadmap text-center road-left">
                     <div class="single-roadmap-img">
-                        <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-4.png'; ?>'; ?>" alt="">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-4.png'; ?>'; ?>"
+                             alt="">
                     </div>
                     <div class="space-30"></div>
                     <div class="roadmap-text">
@@ -203,7 +216,8 @@ get_template_part('assets/template/banner/about');
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <div class="single-roadmap-img">
-                                <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-5.png'; ?>'; ?>" alt="">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-5.png'; ?>'; ?>"
+                                     alt="">
                             </div>
 
                         </div>
@@ -220,7 +234,8 @@ get_template_part('assets/template/banner/about');
             <div class="roadmap-item">
                 <div class="single-roadmap text-center road-left">
                     <div class="single-roadmap-img">
-                        <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-4.png'; ?>'; ?>" alt="">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-4.png'; ?>'; ?>"
+                             alt="">
                     </div>
                     <div class="space-30"></div>
                     <div class="roadmap-text">
@@ -236,7 +251,8 @@ get_template_part('assets/template/banner/about');
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <div class="single-roadmap-img">
-                                <img src="<?php echo get_template_directory_uri().'/assets/img/production/roadmap-5.png'; ?>'; ?>" alt="">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-5.png'; ?>'; ?>"
+                                     alt="">
                             </div>
                         </div>
                         <div class="col-7">
@@ -256,7 +272,7 @@ get_template_part('assets/template/banner/about');
 
 <!-- ##### Team Member Area Start ##### -->
 <?php
-get_template_part('assets/template/team','template');
+get_template_part('assets/template/team', 'template');
 ?>
 <!-- ##### Team Member Area End ##### -->
 
@@ -267,7 +283,9 @@ get_template_part('assets/template/team','template');
             <!-- Add Area -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="add-area mb-100 wow fadeInUp" data-wow-delay="100ms">
-                    <a href="#"><img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/add.png'; ?>'; ?>" alt=""></a>
+                    <a href="#"><img
+                                src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/add.png'; ?>'; ?>"
+                                alt=""></a>
                 </div>
             </div>
 
@@ -284,7 +302,8 @@ get_template_part('assets/template/team','template');
                         <!-- Single Contact Content -->
                         <div class="single-contact-content d-flex align-items-center">
                             <div class="icon">
-                                <img src="<?php echo get_template_directory_uri().'/assets/img/core-img/location.png'; ?>'; ?>" alt="">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/img/core-img/location.png'; ?>'; ?>"
+                                     alt="">
                             </div>
                             <div class="text">
                                 <p>上海市浦东新区芳华路 <br> 陆家嘴互联网创新基地 <br> A栋139号101室</p>
@@ -293,7 +312,8 @@ get_template_part('assets/template/team','template');
                         <!-- Single Contact Content -->
                         <div class="single-contact-content d-flex align-items-center">
                             <div class="icon">
-                                <img src="<?php echo get_template_directory_uri().'/assets/img/core-img/call.png'; ?>'; ?>" alt="">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/img/core-img/call.png'; ?>'; ?>"
+                                     alt="">
                             </div>
                             <div class="text">
                                 <p>400-059-1990</p>
@@ -303,7 +323,8 @@ get_template_part('assets/template/team','template');
                         <!-- Single Contact Content -->
                         <div class="single-contact-content d-flex align-items-center">
                             <div class="icon">
-                                <img src="<?php echo get_template_directory_uri().'/assets/img/core-img/message2.png'; ?>'; ?>" alt="">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/img/core-img/message2.png'; ?>'; ?>"
+                                     alt="">
                             </div>
                             <div class="text">
                                 <p>df@difufinance.com</p>
@@ -326,15 +347,20 @@ get_template_part('assets/template/team','template');
                     <!-- Single News Area -->
                     <div class="single-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/10.jpg'; ?>'; ?>" alt="">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/10.jpg'; ?>'; ?>"
+                                 alt="">
                         </div>
                         <div class="news-content">
                             <span>July 18, 2018</span>
                             <a href="#">How to get the best loan online</a>
                             <div class="news-meta">
-                                <a href="#" class="post-author"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
+                                <a href="#" class="post-author"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/img/core-img/pencil.png'; ?>"
+                                            alt=""> Jane
                                     Smith</a>
-                                <a href="#" class="post-date"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                <a href="#" class="post-date"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/img/core-img/calendar.png'; ?>"
+                                            alt=""> April 26</a>
                             </div>
                         </div>
                     </div>
@@ -342,15 +368,19 @@ get_template_part('assets/template/team','template');
                     <!-- Single News Area -->
                     <div class="single-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/11.jpg'; ?>" alt="">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/11.jpg'; ?>" alt="">
                         </div>
                         <div class="news-content">
                             <span>July 18, 2018</span>
                             <a href="#">A new way to finance your dream home</a>
                             <div class="news-meta">
-                                <a href="#" class="post-author"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
+                                <a href="#" class="post-author"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/img/core-img/pencil.png'; ?>"
+                                            alt=""> Jane
                                     Smith</a>
-                                <a href="#" class="post-date"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                <a href="#" class="post-date"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/img/core-img/calendar.png'; ?>"
+                                            alt=""> April 26</a>
                             </div>
                         </div>
                     </div>
@@ -358,15 +388,19 @@ get_template_part('assets/template/team','template');
                     <!-- Single News Area -->
                     <div class="single-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/12.jpg'; ?>" alt="">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/12.jpg'; ?>" alt="">
                         </div>
                         <div class="news-content">
                             <span>July 18, 2018</span>
                             <a href="#">10 tips to get the best loan for you</a>
                             <div class="news-meta">
-                                <a href="#" class="post-author"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
+                                <a href="#" class="post-author"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/img/core-img/pencil.png'; ?>"
+                                            alt=""> Jane
                                     Smith</a>
-                                <a href="#" class="post-date"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                <a href="#" class="post-date"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/img/core-img/calendar.png'; ?>"
+                                            alt=""> April 26</a>
                             </div>
                         </div>
                     </div>
@@ -383,17 +417,17 @@ get_footer();
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/about.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/container/about.js'; ?>"></script>
 <!-- Popper js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri() . '/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>
