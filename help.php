@@ -22,7 +22,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css'; ?>">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/help.css'; ?>">
 
 </head>
@@ -30,7 +30,7 @@
 <body>
 <!-- Preloader -->
 <?php
-get_template_part('assets/template/preloader','template');
+//get_template_part('assets/template/preloader','template');
 get_header();
 ?>
 <!-- ##### Header Area End ##### -->
@@ -47,6 +47,9 @@ get_header();
                 <div class="sidebar-categories">
                     <div class="head text-center">帮助中心</div>
                     <ul class="main-categorie nav nav-tabs" id="myTab">
+                        <?php
+                        get_template_part('assets/template/sidebar/help');
+                        ?>
                     </ul>
                 </div>
             </div>
@@ -351,9 +354,6 @@ get_footer();
 <!-- jQuery-2.2.4 js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/utils/template.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/component/sideBar.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/help.js'; ?>"></script>
 <!-- Popper js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- All Plugins js -->
