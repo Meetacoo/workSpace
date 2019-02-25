@@ -120,4 +120,34 @@ function bannerTemplate($args)
             </div>
         </div>
     </section>
-<?php } ?>
+<?php }
+;
+function sideBarTemplate($args)
+{ ?>
+    <?php foreach ($args as $key => $value) {
+    $tabs = 'tab--';
+    $tab = 'tab';
+    if ($value["type"]) {?>
+        <li class="main-nav-list dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+               aria-expanded="false">
+                <?php echo $value["title"] ?>
+            </a>
+            <div class="dropdown-menu">
+                <?php foreach ($value["id"] as $key => $id){?>
+                    <a class="nav-link" id="<?php echo $tabs.$id; ?>"
+                       data-toggle="tab" href="#<?php echo $tab.$id; ?>"
+                       role="tab" aria-controls="<?php echo $tab.$id; ?>" aria-selected="false">
+                        <?php echo $value["subtitle"][$key]; ?>
+                    </a>
+                <?php }?>
+            </div>
+        </li>
+    <?php } else {?>
+        <li class="main-nav-list">
+            <a class="nav-link" id="<?php echo $tabs.$value["id"]; ?>" data-toggle="tab" href="#<?php echo $tab.$value["id"]; ?>"
+               role="tab" aria-controls="<?php echo $tab.$value["id"]; ?>" aria-selected="false">
+                <?php echo $value["title"]; ?>
+            </a>
+        </li>
+    <?php }}} ?>
