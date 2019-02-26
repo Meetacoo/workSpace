@@ -1,3 +1,6 @@
+<?php
+$uri = get_template_directory_uri();
+?>
 <header class="header-area">
     <!-- Top Header Area -->
     <div class="top-header-area">
@@ -7,18 +10,18 @@
                     <!-- Logo Area -->
                     <div class="logo">
                         <a href="http://localhost/wordpress/"><img
-                                    src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/logo.png"
+                                    src="<?php echo $uri.'/assets/img/core-img/logo.png'?>"
                                     alt=""></a>
                     </div>
                     <!-- Top Contact Info -->
                     <div class="top-contact-info d-flex align-items-center">
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="浦东新区，芳华路139号"><img
-                                    src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/placeholder.png"
+                                    src="<?php echo $uri.'/assets/img/core-img/placeholder.png'?>"
                                     alt="">
                             <span>浦东新区，芳华路139号</span>
                         </a>
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="shangfudata@com"><img
-                                    src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/message.png"
+                                    src="<?php echo $uri.'/assets/img/core-img/message.png'?>"
                                     alt="">
                             <span>shangfudata@com</span>
                         </a>
@@ -51,41 +54,38 @@
                                                         href="http://localhost/wordpress/about">企业介绍</a></li>
                                 <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/production">产品介绍</a>
                                     <ul class="dropdown">
-                                        <li><a href="http://localhost/wordpress/productiondetailed">聚合支付</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">互联网支付</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">数据查询</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">会员账户系统</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">预付费卡系统</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">代收代付系统</a></li>
+                                        <li><a href="<?php echo $uri.'/productiondetailed'?>">聚合支付</a></li>
+                                        <li><a href="<?php echo $uri.'/productiondetailed'?>">互联网支付</a></li>
+                                        <li><a href="<?php echo $uri.'/productiondetailed'?>">数据查询</a></li>
+                                        <li><a href="<?php echo $uri.'/productiondetailed'?>">会员账户系统</a></li>
+                                        <li><a href="<?php echo $uri.'/productiondetailed'?>">预付费卡系统</a></li>
+                                        <li><a href="<?php echo $uri.'/productiondetailed'?>">代收代付系统</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
-                                                        href="http://localhost/wordpress/industrySolution">行业解决方案</a>
+                                                        href="<?php echo $uri.'/industrySolution'?>">行业解决方案</a>
                                     <ul class="dropdown">
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">运营商行业</a>
+                                        <li><a href="<?php echo $uri.'/industrySolution/detailed'?>">运营商行业</a>
                                         </li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">教育行业</a></li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">消金行业</a></li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">保险行业</a></li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">境外收单行业</a>
+                                        <li><a href="<?php echo $uri.'/industrySolution/detailed'?>">教育行业</a></li>
+                                        <li><a href="<?php echo $uri.'/industrySolution/detailed'?>">消金行业</a></li>
+                                        <li><a href="<?php echo $uri.'/industrySolution/detailed'?>">保险行业</a></li>
+                                        <li><a href="<?php echo $uri.'/industrySolution/detailed'?>">境外收单行业</a>
                                         </li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">B2B/B2C</a>
+                                        <li><a href="<?php echo $uri.'/industrySolution/detailed'?>">B2B/B2C</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link"
-                                                        href="http://localhost/wordpress/pricing">产品定价</a></li>
-                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/developerCenter">开发者中心</a>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo $uri.'/developerCenter'?>">开发者中心</a>
                                     <ul class="dropdown">
-                                        <li><a href="#">概述和基础</a></li>
-                                        <li><a href="#">接入</a></li>
-                                        <li><a href="#">调试</a></li>
-                                        <li><a href="#">论坛</a></li>
+                                        <li><a href="<?php echo $uri.'/developerCenter/basic-merchant'?>">概述和基础</a></li>
+                                        <li><a href="<?php echo $uri.'/developerCenter/guide-merchant'?>">接入指南</a></li>
+                                        <li><a href="<?php echo $uri.'/developerCenter/demo'?>">DEMO下载</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item helpCenter">
                                     <a class="nav-link"
-                                       href="http://localhost/wordpress/help">帮助中心</a>
+                                       href="<?php echo $uri.'/help'?>">帮助中心</a>
                                     <div class="megamenu">
                                         <ul class="single-mega cn-col-4">
                                             <li><a href="#">了解并开始使用</a></li>
@@ -118,8 +118,6 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/post">论坛</a>
-                                </li>
                                 <li class="nav-item"><a class="nav-link"
                                                         href="http://localhost/wordpress/joinUs">加入我们</a></li>
                                 <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/login">登录</a>
@@ -131,7 +129,7 @@
                     <!-- Contact -->
                     <div class="contact">
                         <a href="#"><img
-                                    src="<?php echo get_template_directory_uri() . '/assets/img/core-img/call2.png' ?>"
+                                    src="<?php echo $uri.'/assets/img/core-img/call2.png'?>' ?>"
                                     alt="">4000591990</a>
                     </div>
                 </nav>
