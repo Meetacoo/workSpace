@@ -125,8 +125,6 @@ function bannerTemplate($args)
 function sideBarTemplate($args)
 { ?>
     <?php foreach ($args as $key => $value) {
-    $tabs = 'tab--';
-    $tab = 'tab';
     if ($value["type"]) {?>
         <li class="main-nav-list dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
@@ -134,10 +132,8 @@ function sideBarTemplate($args)
                 <?php echo $value["menu"] ?>
             </a>
             <div class="dropdown-menu">
-                <?php foreach ($value["id"] as $key => $id){?>
-                    <a class="nav-link" id="<?php echo $tabs.$id; ?>"
-                       data-toggle="tab" href="#<?php echo $tab.$id; ?>"
-                       role="tab" aria-controls="<?php echo $tab.$id; ?>" aria-selected="false">
+                <?php foreach ($value["href"] as $key => $href){?>
+                    <a class="nav-link" href="<?php echo $href; ?>">
                         <?php echo $value["submenu"][$key]; ?>
                     </a>
                 <?php }?>
@@ -145,8 +141,7 @@ function sideBarTemplate($args)
         </li>
     <?php } else {?>
         <li class="main-nav-list">
-            <a class="nav-link" id="<?php echo $tabs.$value["id"]; ?>" data-toggle="tab" href="#<?php echo $tab.$value["id"]; ?>"
-               role="tab" aria-controls="<?php echo $tab.$value["id"]; ?>" aria-selected="false">
+            <a class="nav-link" href="<?php echo $value["href"]; ?>">
                 <?php echo $value["menu"]; ?>
             </a>
         </li>
