@@ -51,9 +51,10 @@ get_template_part('assets/template/banner/developer');
                     get_template_part('assets/template/sidebar/developer');
                     ?>
                 </ul>
+                <img src="" alt="">
             </div>
 
-            <div class="tab-content col-xl-9 col-lg-8 col-md-7" id="myTabContent2">
+            <div class="tab-content col-xl-9 col-lg-8 col-md-7">
                 <!-- Single Sidebar Widget -->
-                <div class="tab-pane fade " id="tab11" role="tabpanel" aria-labelledby="tab--11">
+                <div>
                     <div class="row">
