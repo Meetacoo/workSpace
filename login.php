@@ -43,7 +43,15 @@ get_header();
             <span class="login100-form-title p-t-20 p-b-45">
                 迪付客户
             </span>
-            <form class="login100-form validate-form">
+            <div class="container-login100-form-btn p-t-10">
+                <a class="login100-form-btn mb-5">
+                    登录
+                </a>
+                <a class="login100-form-btn">
+                    注册
+                </a>
+            </div>
+            <!--<form class="login100-form validate-form">
                 <div class="wrap-input100 validate-input m-b-10" data-validate="请输入手机号">
                     <input class="input100" type="text" name="number" placeholder="手机号">
                     <span class="focus-input100"></span>
@@ -153,7 +161,7 @@ get_header();
                         <i class="fa fa-long-arrow-right"></i>
                     </a>
                 </div>
-            </form>
+            </form>-->
         </div>
     </div>
 </div>
