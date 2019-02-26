@@ -10,7 +10,7 @@ ul {
 }
 
 /* end common */
-.sidebar-categories .head {
+.head {
     line-height: 50px;
     background: #003679;
     padding: 0 30px;
@@ -136,10 +136,23 @@ ul {
     text-align: left;
 }
 
-.tab-pane td {
+.tab-content td {
     padding: 1rem !important;
 }
 
-.tab-pane p {
+.tab-content p {
     text-indent: 2em;
+    width: 100%;
+}
+.tab-content h4,
+.tab-content h5,
+.tab-content h6 {
+    width: 100%;
+}
+.tab-content .tips {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
 }
