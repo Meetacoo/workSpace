@@ -48,7 +48,7 @@ $uri = get_template_directory_uri();
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li class="nav-item"><a class="nav-link index" href="http://localhost/wordpress">首页</a>
+                                <li class="nav-item"><a class="nav-link index active" href="http://localhost/wordpress">首页</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
                                                         href="http://localhost/wordpress/about">企业介绍</a></li>
