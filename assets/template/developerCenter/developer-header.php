@@ -51,7 +51,6 @@ get_template_part('assets/template/banner/developer');
                     get_template_part('assets/template/sidebar/developer');
                     ?>
                 </ul>
-                <img src="" alt="">
             </div>
 
             <div class="tab-content col-xl-9 col-lg-8 col-md-7">
