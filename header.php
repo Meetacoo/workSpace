@@ -48,22 +48,22 @@ $uri = get_template_directory_uri();
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li class="nav-item"><a class="nav-link index active" href="http://localhost/wordpress">首页</a>
+                                <li class="nav-item"><a class="nav-link index" href="http://localhost/wordpress/">首页</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
-                                                        href="http://localhost/wordpress/about">企业介绍</a></li>
-                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/production">产品介绍</a>
+                                                        href="http://localhost/wordpress/about/">企业介绍</a></li>
+                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/production/">产品介绍</a>
                                     <ul class="dropdown">
-                                        <li><a href="http://localhost/wordpress/productiondetailed">聚合支付</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">互联网支付</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">数据查询</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">会员账户系统</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">预付费卡系统</a></li>
-                                        <li><a href="http://localhost/wordpress/productiondetailed">代收代付系统</a></li>
+                                        <li><a href="http://localhost/wordpress/production/aggregat-pay">聚合支付</a></li>
+                                        <li><a href="http://localhost/wordpress/production/detailed">互联网支付</a></li>
+                                        <li><a href="http://localhost/wordpress/production/detailed">数据查询</a></li>
+                                        <li><a href="http://localhost/wordpress/production/detailed">会员账户系统</a></li>
+                                        <li><a href="http://localhost/wordpress/production/detailed">预付费卡系统</a></li>
+                                        <li><a href="http://localhost/wordpress/production/detailed">代收代付系统</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
-                                                        href="http://localhost/wordpress/industrySolution'?>">行业解决方案</a>
+                                                        href="http://localhost/wordpress/industrySolution/">行业解决方案</a>
                                     <ul class="dropdown">
                                         <li><a href="http://localhost/wordpress/industrySolution/detailed">运营商行业</a>
                                         </li>
@@ -76,7 +76,7 @@ $uri = get_template_directory_uri();
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/developerCenter/basic-merchant">开发者中心</a>
+                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/developerCenter/basic-merchant/">开发者中心</a>
                                     <ul class="dropdown">
                                         <li><a href="http://localhost/wordpress/developerCenter/basic-merchant">概述和基础</a></li>
                                         <li><a href="http://localhost/wordpress/developerCenter/guide-merchant">接入指南</a></li>
@@ -85,7 +85,7 @@ $uri = get_template_directory_uri();
                                 </li>
                                 <li class="nav-item helpCenter">
                                     <a class="nav-link"
-                                       href="http://localhost/wordpress/help">帮助中心</a>
+                                       href="http://localhost/wordpress/help/">帮助中心</a>
                                     <div class="megamenu">
                                         <ul class="single-mega cn-col-4">
                                             <li><a href="#">了解并开始使用</a></li>
@@ -120,7 +120,7 @@ $uri = get_template_directory_uri();
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
                                                         href="http://localhost/wordpress/joinUs/">加入我们</a></li>
-                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/login">登录</a>
+                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/login/">登录</a>
                                 </li>
                             </ul>
                         </div>
