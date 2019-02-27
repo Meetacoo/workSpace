@@ -129,7 +129,7 @@ $uri = get_template_directory_uri();
                     <!-- Contact -->
                     <div class="contact">
                         <a href="#"><img
-                                    src="<?php echo $uri.'/assets/img/core-img/call2.png';?>' ?>"
+                                    src="<?php echo $uri.'/assets/img/core-img/call2.png';?>"
                                     alt="">4000591990</a>
                     </div>
                 </nav>
