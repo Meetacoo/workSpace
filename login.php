@@ -44,10 +44,10 @@ get_header();
                 迪付客户
             </span>
             <div class="container-login100-form-btn p-t-10">
-                <a class="login100-form-btn mb-5" href="https://accounts.shangfudata.com/signin">
+                <a class="login100-form-btn mb-5" href="https://accounts.shangfudata.com/signin" target="_blank">
                     登录
                 </a>
-                <a class="login100-form-btn" href="https://accounts.shangfudata.com/register">
+                <a class="login100-form-btn" href="https://accounts.shangfudata.com/register" target="_blank">
                     注册
                 </a>
             </div>
