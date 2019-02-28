@@ -160,37 +160,37 @@ ul {
 }
 
 @media (min-width: 1200px) {
-    .container {
+    .lattest-product-area.category-list .container {
         width: 100%;
     }
 }
 
 @media (min-width: 1200px) {
-    .container {
+    .lattest-product-area.category-list .container {
         max-width: 100%;
     }
 }
 
 @media (min-width: 992px) {
-    .container {
+    .lattest-product-area.category-list .container {
         width: 100%;
     }
 }
 
 @media (min-width: 768px) {
-    .container {
+    .lattest-product-area.category-list .container {
         width: 100%;
     }
 }
 
 @media (min-width: 768px) {
-    .container {
+    .lattest-product-area.category-list .container {
         max-width: 100%;
     }
 }
 
 @media (min-width: 576px) {
-    .container {
+    .lattest-product-area.category-list .container {
         max-width: 100%;
     }
 }
