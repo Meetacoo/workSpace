@@ -75,3 +75,6 @@
 .media-feature h3 {
     font-size: 20px;
 }
+.overview{
+    min-height: 400px;
+}
