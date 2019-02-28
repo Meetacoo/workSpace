@@ -1,4 +1,11 @@
 <?php
+function tongleer_search_url_rewrite() {
+    if ( is_search() && ! empty( $_GET['s'] ) ) {
+        wp_redirect( home_url( "/search/" ) . urlencode( get_query_var( 's' ) ) );
+        exit();
+    }
+}
+add_action( 'template_redirect', 'tongleer_search_url_rewrite' );
 if (function_exists('register_nav_menus')) {
     register_nav_menus(array('primary' => 'Primary Navigation'));
 } //主键key调用nav时使用，值value为后台菜单显示名称
@@ -69,7 +76,7 @@ function productionTemplate($args, $titles)
                            data-placement="top"
                            title="点击查看详细">
                             <div class="single-about-img">
-                                <img src="<?php printf(get_template_directory_uri().$value["src"]) ?>" alt="">
+                                <img src="<?php printf(get_template_directory_uri() . $value["src"]) ?>" alt="">
                             </div>
                             <div class="single-about-text">
                                 <h4><?php printf($value["label"]) ?></h4>
@@ -88,7 +95,7 @@ function welcomeTemplate($args)
 {
     ?>
     <div class="section"
-         style="background-image: url('<?php printf(get_template_directory_uri().'/assets/img/bg-img/6.jpg')?>');">
+         style="background-image: url('<?php printf(get_template_directory_uri() . '/assets/img/bg-img/6.jpg') ?>');">
         <section class="newsletter-area section-padding-100 bg-img jarallax">
             <div class="container">
                 <div class="row justify-content-center">
@@ -104,11 +111,13 @@ function welcomeTemplate($args)
         </section>
     </div>
 <?php }
+
 ;
 function bannerTemplate($args)
 {
     ?>
-    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url('<?php printf(get_template_directory_uri().$args["src"]) ?>');">
+    <section class="breadcrumb-area bg-img bg-overlay jarallax"
+             style="background-image: url('<?php printf(get_template_directory_uri() . $args["src"]) ?>');">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -121,28 +130,31 @@ function bannerTemplate($args)
         </div>
     </section>
 <?php }
+
 ;
 function sideBarTemplate($args)
 { ?>
     <?php foreach ($args as $key => $value) {
-    if ($value["type"]) {?>
+    if ($value["type"]) { ?>
         <li class="main-nav-list dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                aria-expanded="false">
                 <?php echo $value["menu"] ?>
             </a>
             <div class="dropdown-menu">
-                <?php foreach ($value["href"] as $key => $href){?>
+                <?php foreach ($value["href"] as $key => $href) { ?>
                     <a class="nav-link" href="<?php echo $href; ?>">
                         <?php echo $value["submenu"][$key]; ?>
                     </a>
-                <?php }?>
+                <?php } ?>
             </div>
         </li>
-    <?php } else {?>
+    <?php } else { ?>
         <li class="main-nav-list">
             <a class="nav-link" href="<?php echo $value["href"]; ?>">
                 <?php echo $value["menu"]; ?>
             </a>
         </li>
-    <?php }}} ?>
+    <?php }
+}
+} ?>
