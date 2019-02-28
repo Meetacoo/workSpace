@@ -42,6 +42,7 @@ get_footer();
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo get_template_directory_uri().'/assets/js/container/index.js'; ?>"></script>
 <!-- Popper js -->
 <script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
