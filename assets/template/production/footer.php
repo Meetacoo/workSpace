@@ -21,7 +21,6 @@ get_footer();
 <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri() . '/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
 <script src="<?php echo get_template_directory_uri() . '/assets/js/container/partner.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri() . '/assets/js/container/index.js'; ?>"></script>
 
 <!-- Popper js -->
 <script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap/popper.min.js'; ?>"></script>
