@@ -144,15 +144,53 @@ ul {
     text-indent: 2em;
     width: 100%;
 }
+
 .tab-content h4,
 .tab-content h5,
 .tab-content h6 {
     width: 100%;
 }
+
 .tab-content .tips {
     border: 1px solid #dee2e6;
     border-radius: 5px;
     word-wrap: break-word;
     word-break: break-all;
     overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
 }
