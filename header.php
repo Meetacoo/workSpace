@@ -50,13 +50,12 @@ $uri = get_template_directory_uri();
                             <ul>
                                 <li class="nav-item"><a class="nav-link index" href="http://localhost/wordpress/">首页</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link"
-                                                        href="http://localhost/wordpress/about/">企业介绍</a></li>
+                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/about/">企业介绍</a></li>
                                 <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/production/">产品介绍</a>
                                     <ul class="dropdown">
                                         <li><a href="http://localhost/wordpress/production/aggregat-pay">聚合支付</a></li>
+                                        <li><a href="http://localhost/wordpress/production/authentication">数据查询</a></li>
                                         <li><a href="http://localhost/wordpress/production/detailed">互联网支付</a></li>
-                                        <li><a href="http://localhost/wordpress/production/detailed">数据查询</a></li>
                                         <li><a href="http://localhost/wordpress/production/detailed">会员账户系统</a></li>
                                         <li><a href="http://localhost/wordpress/production/detailed">预付费卡系统</a></li>
                                         <li><a href="http://localhost/wordpress/production/detailed">代收代付系统</a></li>
@@ -86,37 +85,14 @@ $uri = get_template_directory_uri();
                                 <li class="nav-item helpCenter">
                                     <a class="nav-link"
                                        href="http://localhost/wordpress/help/">帮助中心</a>
-                                    <div class="megamenu">
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="#">了解并开始使用</a></li>
-                                            <li><a href="#">产品介绍</a></li>
-                                            <li><a href="#">商务接入流程</a></li>
-                                            <li><a href="#">接入的产品能够解决怎样的问题</a></li>
-                                            <li><a href="#">初步接入过程中需要注意的关键点</a></li>
-                                        </ul>
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="#">账户管理/管理平台</a></li>
-                                            <li><a href="#">注册信息修改</a></li>
-                                            <li><a href="#">账户查询</a></li>
-                                            <li><a href="#">数据服务</a></li>
-                                            <li><a href="#">订单查询</a></li>
-                                        </ul>
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="#">接入开发</a></li>
-                                            <li><a href="#">参数的配置</a></li>
-                                            <li><a href="#">报错数据查询</a></li>
-                                            <li><a href="#">返回码汇总</a></li>
-                                            <li><a href="#">接入流程问题</a></li>
-                                            <li><a href="#">其他常见问题</a></li>
-                                        </ul>
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="#">费用</a></li>
-                                            <li><a href="#">支付通道标准费用</a></li>
-                                            <li><a href="#">我司收费</a></li>
-                                            <li><a href="#">关于发票</a></li>
-                                            <li><a href="#">其他</a></li>
-                                        </ul>
-                                    </div>
+                                    <ul class="dropdown">
+                                        <li><a href="http://localhost/wordpress/help/common-merchant">商户接口</a></li>
+                                        <li><a href="http://localhost/wordpress/help/common-collectingpayment">代收支付</a></li>
+                                        <li><a href="http://localhost/wordpress/help/common-quickpay">快捷支付</a></li>
+                                        <li><a href="http://localhost/wordpress/help/common-mpayment">移动支付</a></li>
+                                        <li><a href="http://localhost/wordpress/help/common-authentication">鉴权</a></li>
+                                        <li><a href="http://localhost/wordpress/help/common-gateway">网关</a></li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
                                                         href="http://localhost/wordpress/joinUs/">加入我们</a></li>
