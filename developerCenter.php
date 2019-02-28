@@ -2,8 +2,6 @@
 /**
  * Template Name: 开发者中心模板
  */
-?>
-<?php
 get_template_part('assets/template/developerCenter/developer', 'header');
 
 the_post();
