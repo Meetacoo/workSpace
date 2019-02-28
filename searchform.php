@@ -6,10 +6,11 @@
  * Time: 10:03
  */
 ?>
-<form method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
-    <input class="searchInput" type="search" name="search" placeholder="输入关键字" name="s" id="s"/>
-    <button type="submit" onClick="if(document.forms['search'].searchinput.value=='- Search -')document.forms['search'].searchinput.value='';" alt="Search">搜索</button>
+<form role="search" method="get" class="search-form" id="searchform" action="<?php echo home_url(); ?>/">
+    <input class="searchInput search-field" type="search" placeholder="输入关键字" name="s" id="s" title="Search：" />
+    <button type="submit" class="searchaction search-submit">搜索</button>
 </form>
+
 
 <script type="text/javascript">
     $(document).ready(function(){
