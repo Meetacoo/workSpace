@@ -84,7 +84,7 @@ $uri = get_template_directory_uri();
                                 </li>
                                 <li class="nav-item helpCenter">
                                     <a class="nav-link"
-                                       href="http://localhost/wordpress/help/">帮助中心</a>
+                                       href="http://localhost/wordpress/help/common-merchant">帮助中心</a>
                                     <ul class="dropdown">
                                         <li><a href="http://localhost/wordpress/help/common-merchant">商户接口</a></li>
                                         <li><a href="http://localhost/wordpress/help/common-collectingpayment">代收支付</a></li>
