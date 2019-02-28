@@ -1,5 +1,6 @@
 <?php
 $uri = get_template_directory_uri();
+$homeUri = get_site_url();
 ?>
 <header class="header-area">
     <!-- Top Header Area -->
@@ -9,7 +10,7 @@ $uri = get_template_directory_uri();
                 <div class="col-12 d-flex justify-content-between">
                     <!-- Logo Area -->
                     <div class="logo">
-                        <a href="http://localhost/wordpress/"><img
+                        <a href="<?php echo $homeUri;?>/"><img
                                     src="<?php echo $uri.'/assets/img/core-img/logo.png'?>"
                                     alt=""></a>
                     </div>
@@ -48,55 +49,55 @@ $uri = get_template_directory_uri();
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li class="nav-item"><a class="nav-link index" href="http://localhost/wordpress/">首页</a>
+                                <li class="nav-item"><a class="nav-link index" href="<?php echo $homeUri;?>">首页</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/about/">企业介绍</a></li>
-                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/production/">产品介绍</a>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo $homeUri;?>/about/">企业介绍</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo $homeUri;?>/production/">产品介绍</a>
                                     <ul class="dropdown">
-                                        <li><a href="http://localhost/wordpress/production/aggregat-pay">聚合支付</a></li>
-                                        <li><a href="http://localhost/wordpress/production/authentication">数据查询</a></li>
-                                        <li><a href="http://localhost/wordpress/production/detailed">互联网支付</a></li>
-                                        <li><a href="http://localhost/wordpress/production/detailed">会员账户系统</a></li>
-                                        <li><a href="http://localhost/wordpress/production/detailed">预付费卡系统</a></li>
-                                        <li><a href="http://localhost/wordpress/production/detailed">代收代付系统</a></li>
+                                        <li><a href="<?php echo $homeUri.'/production/aggregat-pay';?>">聚合支付</a></li>
+                                        <li><a href="<?php echo $homeUri.'/production/authentication';?>">数据查询</a></li>
+                                        <li><a href="<?php echo $homeUri.'/production/detailed';?>">互联网支付</a></li>
+                                        <li><a href="<?php echo $homeUri.'/production/detailed';?>">会员账户系统</a></li>
+                                        <li><a href="<?php echo $homeUri.'/production/detailed';?>">预付费卡系统</a></li>
+                                        <li><a href="<?php echo $homeUri.'/production/detailed';?>">代收代付系统</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
-                                                        href="http://localhost/wordpress/industrySolution/">行业解决方案</a>
+                                                        href="<?php echo $homeUri.'/industrySolution';?>">行业解决方案</a>
                                     <ul class="dropdown">
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">运营商行业</a>
+                                        <li><a href="<?php echo $homeUri.'/industrySolution/detailed';?>">运营商行业</a>
                                         </li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">教育行业</a></li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">消金行业</a></li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">保险行业</a></li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">境外收单行业</a>
+                                        <li><a href="<?php echo $homeUri.'/industrySolution/detailed';?>">教育行业</a></li>
+                                        <li><a href="<?php echo $homeUri.'/industrySolution/detailed';?>">消金行业</a></li>
+                                        <li><a href="<?php echo $homeUri.'/industrySolution/detailed';?>">保险行业</a></li>
+                                        <li><a href="<?php echo $homeUri.'/industrySolution/detailed';?>">境外收单行业</a>
                                         </li>
-                                        <li><a href="http://localhost/wordpress/industrySolution/detailed">B2B/B2C</a>
+                                        <li><a href="<?php echo $homeUri.'/industrySolution/detailed';?>">B2B/B2C</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/developerCenter/basic-merchant/">开发者中心</a>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo $homeUri.'/developerCenter/basic-merchant';?>">开发者中心</a>
                                     <ul class="dropdown">
-                                        <li><a href="http://localhost/wordpress/developerCenter/basic-merchant">概述和基础</a></li>
-                                        <li><a href="http://localhost/wordpress/developerCenter/guide-merchant">接入指南</a></li>
-                                        <li><a href="http://localhost/wordpress/developerCenter/demo">DEMO下载</a></li>
+                                        <li><a href="<?php echo $homeUri.'/developerCenter/basic-merchant';?>">概述和基础</a></li>
+                                        <li><a href="<?php echo $homeUri.'/developerCenter/guide-merchant';?>">接入指南</a></li>
+                                        <li><a href="<?php echo $homeUri.'/developerCenter/demo';?>">DEMO下载</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item helpCenter">
                                     <a class="nav-link"
-                                       href="http://localhost/wordpress/help/common-merchant">帮助中心</a>
+                                       href="<?php echo $homeUri.'/help/common-merchant';?>">帮助中心</a>
                                     <ul class="dropdown">
-                                        <li><a href="http://localhost/wordpress/help/common-merchant">商户接口</a></li>
-                                        <li><a href="http://localhost/wordpress/help/common-collectingpayment">代收支付</a></li>
-                                        <li><a href="http://localhost/wordpress/help/common-quickpay">快捷支付</a></li>
-                                        <li><a href="http://localhost/wordpress/help/common-mpayment">移动支付</a></li>
-                                        <li><a href="http://localhost/wordpress/help/common-authentication">鉴权</a></li>
-                                        <li><a href="http://localhost/wordpress/help/common-gateway">网关</a></li>
+                                        <li><a href="<?php echo $homeUri.'/help/common-merchant';?>">商户接口</a></li>
+                                        <li><a href="<?php echo $homeUri.'/help/common-collectingpayment';?>">代收支付</a></li>
+                                        <li><a href="<?php echo $homeUri.'/help/common-quickpay';?>">快捷支付</a></li>
+                                        <li><a href="<?php echo $homeUri.'/help/common-mpayment';?>">移动支付</a></li>
+                                        <li><a href="<?php echo $homeUri.'/help/common-authentication';?>">鉴权</a></li>
+                                        <li><a href="<?php echo $homeUri.'/help/common-gateway';?>">网关</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link"
-                                                        href="http://localhost/wordpress/joinUs/">加入我们</a></li>
-                                <li class="nav-item"><a class="nav-link" href="http://localhost/wordpress/login/">登录</a>
+                                                        href="<?php echo $homeUri.'/joinUs';?>">加入我们</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo $homeUri.'/login';?>">登录</a>
                                 </li>
                             </ul>
                         </div>

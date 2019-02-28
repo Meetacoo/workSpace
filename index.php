@@ -1,3 +1,7 @@
+<?php
+$uri = get_template_directory_uri();
+$homeUri = get_site_url();
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
@@ -12,14 +16,14 @@
     <title>【迪付金融官网】 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
+    <link rel="icon" href="<?php echo $uri.'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/common.css'; ?>">
     <link rel="stylesheet"
-          href="<?php echo get_template_directory_uri().'/assets/css/component/partner.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/index.css'; ?>">
+          href="<?php echo $uri.'/assets/css/component/partner.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/container/index.css'; ?>">
 
     <!-- wordpress head-->
 </head>
@@ -27,7 +31,7 @@
 <body>
 <!-- Preloader -->
 <?php
-get_template_part('assets/template/preloader','template');
+//get_template_part('assets/template/preloader','template');
 get_header();
 ?>
 
@@ -39,7 +43,7 @@ get_header();
         <div class="single-slide bg-img">
             <!-- Background Image-->
             <div class="slide-bg-img bg-img bg-overlay"
-                 style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/1.jpg)'; ?>"></div>
+                 style="background-image: url(<?php echo $uri.'/assets/img/bg-img/1.jpg)'; ?>"></div>
             <!-- Welcome Text -->
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center">
@@ -63,7 +67,7 @@ get_header();
         <div class="single-slide bg-img">
             <!-- Background Image-->
             <div class="slide-bg-img bg-img bg-overlay"
-                 style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/5.jpg)'; ?>"></div>
+                 style="background-image: url(<?php echo $uri.'/assets/img/bg-img/5.jpg)'; ?>"></div>
             <!-- Welcome Text -->
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center">
@@ -87,7 +91,7 @@ get_header();
         <div class="single-slide bg-img">
             <!-- Background Image-->
             <div class="slide-bg-img bg-img bg-overlay"
-                 style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/1.jpg)'; ?>"></div>
+                 style="background-image: url(<?php echo $uri.'/assets/img/bg-img/1.jpg)'; ?>"></div>
             <!-- Welcome Text -->
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center">
@@ -111,7 +115,7 @@ get_header();
         <div class="single-slide bg-img">
             <!-- Background Image-->
             <div class="slide-bg-img bg-img bg-overlay"
-                 style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/5.jpg)'; ?>"></div>
+                 style="background-image: url(<?php echo $uri.'/assets/img/bg-img/5.jpg)'; ?>"></div>
             <!-- Welcome Text -->
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center">
@@ -144,7 +148,7 @@ get_template_part('assets/template/core/index');
 <section class="cta-area d-flex flex-wrap">
     <!-- Cta Thumbnail -->
     <div class="cta-thumbnail bg-img jarallax"
-         style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/5.jpg)'; ?>"></div>
+         style="background-image: url(<?php echo $uri.'/assets/img/bg-img/5.jpg)'; ?>"></div>
 
     <!-- Cta Content -->
     <div class="cta-content">
@@ -203,7 +207,7 @@ get_template_part('assets/template/core/index');
                         <h4>海纳百川，精选全球的高品质软件与服务</h4>
                     </div>
                     <div class="cta-btn">
-                        <a href="http://localhost/wordpress/pricing" class="btn credit-btn box-shadow">查看详情</a>
+                        <a href="<?php $homeUri.'/pricing'?>" class="btn credit-btn box-shadow">查看详情</a>
                     </div>
                 </div>
             </div>
@@ -222,18 +226,18 @@ get_footer();
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/partner.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/container/partner.js'; ?>"></script>
 
 <!-- Popper js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>

@@ -1,3 +1,6 @@
+<?php
+$uri = get_template_directory_uri();
+?>
 <!-- ##### Footer Area Start ##### -->
 <footer class="footer-area section-padding-100-0">
     <div class="container">
@@ -57,13 +60,13 @@
                     <!-- Single News Area -->
                     <div class="single-latest-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/7.jpg" alt="">
+                            <img src="<?php echo $uri.'/assets/img/bg-img/7.jpg';?>" alt="">
                         </div>
                         <div class="news-content">
                             <a href="#">账户管理</a>
                             <div class="news-meta">
-                                <a href="#" class="post-author"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/pencil.png" alt=""> Jane Smith</a>
-                                <a href="#" class="post-date"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/calendar.png" alt=""> April 26</a>
+                                <a href="#" class="post-author"><img src="<?php echo $uri.'/assets/img/core-img/pencil.png';?>" alt=""> Jane Smith</a>
+                                <a href="#" class="post-date"><img src="<?php echo $uri.'/assets/img/core-img/calendar.png';?>" alt=""> April 26</a>
                             </div>
                         </div>
                     </div>
@@ -71,13 +74,13 @@
                     <!-- Single News Area -->
                     <div class="single-latest-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/8.jpg" alt="">
+                            <img src="<?php echo $uri.'/assets/img/bg-img/8.jpg';?>" alt="">
                         </div>
                         <div class="news-content">
                             <a href="#">购物指南</a>
                             <div class="news-meta">
-                                <a href="#" class="post-author"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/pencil.png" alt=""> Jane Smith</a>
-                                <a href="#" class="post-date"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/calendar.png" alt=""> April 26</a>
+                                <a href="#" class="post-author"><img src="<?php echo $uri.'/assets/img/core-img/pencil.png';?>" alt=""> Jane Smith</a>
+                                <a href="#" class="post-date"><img src="<?php echo $uri.'/assets/img/core-img/calendar.png';?>" alt=""> April 26</a>
                             </div>
                         </div>
                     </div>
@@ -85,13 +88,13 @@
                     <!-- Single News Area -->
                     <div class="single-latest-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/bg-img/9.jpg" alt="">
+                            <img src="<?php echo $uri.'/assets/img/bg-img/9.jpg';?>" alt="">
                         </div>
                         <div class="news-content">
                             <a href="#">订单操作</a>
                             <div class="news-meta">
-                                <a href="#" class="post-author"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/pencil.png" alt=""> Jane Smith</a>
-                                <a href="#" class="post-date"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/calendar.png" alt=""> April 26</a>
+                                <a href="#" class="post-author"><img src="<?php echo $uri.'/assets/img/core-img/pencil.png';?>" alt=""> Jane Smith</a>
+                                <a href="#" class="post-date"><img src="<?php echo $uri.'/assets/img/core-img/calendar.png';?>" alt=""> April 26</a>
                             </div>
                         </div>
                     </div>
@@ -108,7 +111,7 @@
                 <div class="col-12">
                     <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">
                         <!-- Footer Logo -->
-                        <a href="http://localhost/wordpress/" class="footer-logo"><img src="http://localhost/wordpress/wp-content/themes/difu-web/assets/img/core-img/logo.png" alt=""></a>
+                        <a href="http://localhost/wordpress/" class="footer-logo"><img src="<?php echo $uri.'/assets/img/core-img/logo.png';?>" alt=""></a>
                         <!-- Copywrite Text -->
                         <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"> 上海迪付金融有限公司.</a>

@@ -7,9 +7,10 @@
  */
 ?>
 <?php
+$homeUri = get_site_url();
 $args = array(
     'title' => '想要加入我们吗',
-    'linkTo' => 'http://localhost/wordpress/joinUs/',
+    'linkTo' => $homeUri.'/joinUs',
     'button' => '申请加入',
     'description' => '你还在犹豫什么？加入我们，享受豪华套餐。'
 );

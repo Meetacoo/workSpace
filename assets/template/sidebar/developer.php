@@ -7,7 +7,7 @@
  */
 ?>
 <?php
-$uri = 'http://localhost/wordpress/developerCenter/';
+$homeUri = get_site_url();
 $args = array(
     array(
         'menu' => '概述和基础',
@@ -20,12 +20,12 @@ $args = array(
             '网关'
         ),
         'href' => array(
-            $uri.'basic-merchant',
-            $uri.'basic-collectingpayment',
-            $uri.'basic-quickpay',
-            $uri.'basic-mpayment',
-            $uri.'basic-authentication',
-            $uri.'basic-gateway'
+            $homeUri.'/developerCenter/basic-merchant',
+            $homeUri.'/developerCenter/basic-collectingpayment',
+            $homeUri.'/developerCenter/basic-quickpay',
+            $homeUri.'/developerCenter/basic-mpayment',
+            $homeUri.'/developerCenter/basic-authentication',
+            $homeUri.'/developerCenter/basic-gateway'
         ),
         'type' => 'dropdown'
     ),
@@ -40,18 +40,18 @@ $args = array(
             '网关'
         ),
         'href' => array(
-            $uri.'guide-merchant',
-            $uri.'guide-collectingpayment',
-            $uri.'guide-quickpay',
-            $uri.'guide-mpayment',
-            $uri.'guide-authentication',
-            $uri.'guide-gateway'
+            $homeUri.'/developerCenter/guide-merchant',
+            $homeUri.'/developerCenter/guide-collectingpayment',
+            $homeUri.'/developerCenter/guide-quickpay',
+            $homeUri.'/developerCenter/guide-mpayment',
+            $homeUri.'/developerCenter/guide-authentication',
+            $homeUri.'/developerCenter/guide-gateway'
         ),
-        'type' => 'dropdown'
+        'type' => '/developerCenter/dropdown'
     ),
     array(
         'menu' => 'DEMO下载',
-        'href' => $uri.'demo',
+        'href' => $homeUri.'demo',
     )
 );
 sideBarTemplate($args);
