@@ -10,7 +10,7 @@ $homeUri = get_site_url();
                 <div class="col-12 d-flex justify-content-between">
                     <!-- Logo Area -->
                     <div class="logo">
-                        <a href="<?php echo $homeUri;?>/"><img
+                        <a href="<?php echo $homeUri;?>"><img
                                     src="<?php echo $uri.'/assets/img/core-img/logo.png'?>"
                                     alt=""></a>
                     </div>
@@ -51,8 +51,8 @@ $homeUri = get_site_url();
                             <ul>
                                 <li class="nav-item"><a class="nav-link index" href="<?php echo $homeUri;?>">首页</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="<?php echo $homeUri;?>/about/">企业介绍</a></li>
-                                <li class="nav-item"><a class="nav-link" href="<?php echo $homeUri;?>/production/">产品介绍</a>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo $homeUri.'/about';?>">企业介绍</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo $homeUri.'/production';?>">产品介绍</a>
                                     <ul class="dropdown">
                                         <li><a href="<?php echo $homeUri.'/production/aggregat-pay';?>">聚合支付</a></li>
                                         <li><a href="<?php echo $homeUri.'/production/authentication';?>">数据查询</a></li>
