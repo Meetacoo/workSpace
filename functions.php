@@ -1,11 +1,16 @@
 <?php
-function tongleer_search_url_rewrite() {
-    if ( is_search() && ! empty( $_GET['s'] ) ) {
-        wp_redirect( home_url( "/search/" ) . urlencode( get_query_var( 's' ) ) );
+// search方法
+function tongleer_search_url_rewrite()
+{
+    if (is_search() && !empty($_GET['s'])) {
+        wp_redirect(home_url("/search/") . urlencode(get_query_var('s')));
         exit();
     }
 }
-add_action( 'template_redirect', 'tongleer_search_url_rewrite' );
+
+// 重定向
+add_action('template_redirect', 'tongleer_search_url_rewrite');
+
 if (function_exists('register_nav_menus')) {
     register_nav_menus(array('primary' => 'Primary Navigation'));
 } //主键key调用nav时使用，值value为后台菜单显示名称
