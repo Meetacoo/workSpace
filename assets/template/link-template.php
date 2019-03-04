@@ -5,6 +5,7 @@
  * Date: 2019/2/28
  * Time: 16:14
  */
+$uri = get_template_directory_uri();
 ?>
 
 <!-- ##### Miscellaneous Area Start ###### -->
@@ -14,7 +15,7 @@
             <!-- Add Area -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="add-area mb-100 wow fadeInUp" data-wow-delay="100ms">
-                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/add.png'; ?>"
+                    <a href="#"><img src="<?php echo $uri . '/assets/img/bg-img/add.png'; ?>"
                                      alt=""></a>
                 </div>
             </div>
@@ -32,7 +33,7 @@
                         <!-- Single Contact Content -->
                         <div class="single-contact-content d-flex align-items-center">
                             <div class="icon">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/img/core-img/location.png'; ?>"
+                                <img src="<?php echo $uri . '/assets/img/core-img/location.png'; ?>"
                                      alt="">
                             </div>
                             <div class="text">
@@ -42,7 +43,7 @@
                         <!-- Single Contact Content -->
                         <div class="single-contact-content d-flex align-items-center">
                             <div class="icon">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/img/core-img/call.png'; ?>"
+                                <img src="<?php echo $uri . '/assets/img/core-img/call.png'; ?>"
                                      alt="">
                             </div>
                             <div class="text">
@@ -53,7 +54,7 @@
                         <!-- Single Contact Content -->
                         <div class="single-contact-content d-flex align-items-center">
                             <div class="icon">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/img/core-img/message2.png'; ?>"
+                                <img src="<?php echo $uri . '/assets/img/core-img/message2.png'; ?>"
                                      alt="">
                             </div>
                             <div class="text">
@@ -77,25 +78,25 @@
                     <!-- Single News Area -->
                     <div class="single-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/10.jpg'; ?>" alt="">
+                            <img src="<?php echo $uri . '/assets/img/bg-img/10.jpg'; ?>" alt="">
                         </div>
                         <div class="news-content">
                             <span>July 18, 2018</span>
                             <a href="#">薪酬福利</a>
                             <div class="news-meta">
                                 <a href="#" class="post-author"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/pencil.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/pencil.png'; ?>"
                                         alt=""> 丰厚奖金</a>
                                 <a href="#" class="post-date"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/calendar.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/calendar.png'; ?>"
                                         alt=""> 团建旅游</a>
                             </div>
                             <div class="news-meta">
                                 <a href="#" class="post-author"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/pencil.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/pencil.png'; ?>"
                                         alt=""> 节日礼物</a>
                                 <a href="#" class="post-date"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/calendar.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/calendar.png'; ?>"
                                         alt=""> 综合补贴</a>
                             </div>
                         </div>
@@ -104,25 +105,25 @@
                     <!-- Single News Area -->
                     <div class="single-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/11.jpg'; ?>" alt="">
+                            <img src="<?php echo $uri . '/assets/img/bg-img/11.jpg'; ?>" alt="">
                         </div>
                         <div class="news-content">
                             <span>July 18, 2018</span>
                             <a href="#">公司氛围</a>
                             <div class="news-meta">
                                 <a href="#" class="post-author"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/pencil.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/pencil.png'; ?>"
                                         alt=""> 无障碍沟通</a>
                                 <a href="#" class="post-date"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/calendar.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/calendar.png'; ?>"
                                         alt=""> 非常nice的老板同事</a>
                             </div>
                             <div class="news-meta">
                                 <a href="#" class="post-author"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/pencil.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/pencil.png'; ?>"
                                         alt=""> 人性化公司氛围</a>
                                 <a href="#" class="post-date"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/calendar.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/calendar.png'; ?>"
                                         alt=""> 非常nice的老板同事</a>
                             </div>
                         </div>
@@ -131,25 +132,25 @@
                     <!-- Single News Area -->
                     <div class="single-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/12.jpg'; ?>" alt="">
+                            <img src="<?php echo $uri . '/assets/img/bg-img/12.jpg'; ?>" alt="">
                         </div>
                         <div class="news-content">
                             <span>July 18, 2018</span>
                             <a href="#">培训发展</a>
                             <div class="news-meta">
                                 <a href="#" class="post-author"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/pencil.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/pencil.png'; ?>"
                                         alt=""> 新人培训</a>
                                 <a href="#" class="post-date"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/calendar.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/calendar.png'; ?>"
                                         alt=""> 业务培训</a>
                             </div>
                             <div class="news-meta">
                                 <a href="#" class="post-author"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/pencil.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/pencil.png'; ?>"
                                         alt=""> 调岗晋升</a>
                                 <a href="#" class="post-date"><img
-                                        src="<?php echo get_template_directory_uri() . '/assets/img/core-img/calendar.png'; ?>"
+                                        src="<?php echo $uri . '/assets/img/core-img/calendar.png'; ?>"
                                         alt=""> 工作指导</a>
                             </div>
                         </div>
