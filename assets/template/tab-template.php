@@ -18,7 +18,7 @@ $args = array(
         ),
         'navId' => 'tab--1',
         'href' => 'tab1',
-        'dataParent' => 'accordionTwo',
+        'dataParent' => 'accordionOne',
         'ariaControls' => array(
             'r-java',
             'r-test',
@@ -58,11 +58,6 @@ $args = array(
         )
     )
 );
-$title = array(
-    '职位诱惑：',
-    '职位描述：',
-    '工作地址：'
-)
 //tabMenuTemplate($args);
 ?>
 <div class="credit-tabs-content mt-50">
