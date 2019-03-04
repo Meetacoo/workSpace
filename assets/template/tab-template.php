@@ -58,9 +58,8 @@ $args = array(
         )
     )
 );
-//tabMenuTemplate($args);
 ?>
-<div class="credit-tabs-content mt-50">
+<div class="credit-tabs-content mt-50 mb-50">
     <div class="container">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <?php foreach ($args as $key => $value) { ?>
