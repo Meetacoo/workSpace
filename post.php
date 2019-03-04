@@ -2,6 +2,7 @@
 /**
  * Template Name: 论坛模板
  */
+$uri = get_template_directory_uri();
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -17,11 +18,11 @@
     <title>论坛 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
+    <link rel="icon" href="<?php echo $uri.'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/common.css'; ?>">
 
 </head>
 
@@ -43,15 +44,15 @@ get_header();
                 <!-- Single Blog Area -->
                 <div class="single-blog-area mb-70">
                     <div class="blog-thumbnail">
-                        <a href="#"><img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/22.jpg'; ?>"" alt=""></a>
+                        <a href="#"><img src="<?php echo $uri.'/assets/img/bg-img/22.jpg'; ?>"" alt=""></a>
                     </div>
                     <div class="blog-content">
                         <span>July 18, 2018</span>
                         <a href="single-post.html" class="post-title">论坛文章一</a>
                         <div class="blog-meta">
-                            <a href="#" class="post-author"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
+                            <a href="#" class="post-author"><img src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
                                 Smith</a>
-                            <a href="#" class="post-date"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                            <a href="#" class="post-date"><img src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                         </div>
                         <p>上海迪付金融信息服务有限公司办公室地址位于中国大城市，魔都上海，上海 上海市宝山区河曲路118号5512室，于2015年03月06日在宝山区市场监督管理局注册成立.</p>
                     </div>
@@ -60,15 +61,15 @@ get_header();
                 <!-- Single Blog Area -->
                 <div class="single-blog-area mb-70">
                     <div class="blog-thumbnail">
-                        <a href="#"><img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/23.jpg'; ?>"" alt=""></a>
+                        <a href="#"><img src="<?php echo $uri.'/assets/img/bg-img/23.jpg'; ?>"" alt=""></a>
                     </div>
                     <div class="blog-content">
                         <span>July 18, 2018</span>
                         <a href="single-post.html" class="post-title">论坛文章二</a>
                         <div class="blog-meta">
-                            <a href="#" class="post-author"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
+                            <a href="#" class="post-author"><img src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
                                 Smith</a>
-                            <a href="#" class="post-date"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                            <a href="#" class="post-date"><img src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                         </div>
                         <p>在公司发展壮大的4年里，我们始终为客户提供好的产品和技术支持、健全的售后服务.</p>
                     </div>
@@ -77,15 +78,15 @@ get_header();
                 <!-- Single Blog Area -->
                 <div class="single-blog-area mb-70">
                     <div class="blog-thumbnail">
-                        <a href="#"><img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/24.jpg'; ?>"" alt=""></a>
+                        <a href="#"><img src="<?php echo $uri.'/assets/img/bg-img/24.jpg'; ?>"" alt=""></a>
                     </div>
                     <div class="blog-content">
                         <span>July 18, 2018</span>
                         <a href="single-post.html" class="post-title">论坛文章三</a>
                         <div class="blog-meta">
-                            <a href="#" class="post-author"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
+                            <a href="#" class="post-author"><img src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane
                                 Smith</a>
-                            <a href="#" class="post-date"><img src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                            <a href="#" class="post-date"><img src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                         </div>
                         <p>我公司主要经营金融信息咨询服务（除金融业务）；接受金融机构委托从事金融信息技术、金融业务流程、金融知识流程外包；企业管理；
                             投资管理及咨询；商务信息咨询；资产管理；品牌管理；商标代理服务；企业形象策划；文化艺术交流策划；电子产品的销售；
@@ -161,16 +162,16 @@ get_header();
                                         <!-- Single News Area -->
                                         <div class="single-news-area d-flex align-items-center">
                                             <div class="news-thumbnail">
-                                                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/10.jpg'; ?>"" alt="">
+                                                <img src="<?php echo $uri.'/assets/img/bg-img/10.jpg'; ?>"" alt="">
                                             </div>
                                             <div class="news-content">
                                                 <span>July 18, 2018</span>
                                                 <a href="single-post.html">论坛文章二</a>
                                                 <div class="news-meta">
                                                     <a href="#" class="post-author"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
                                                     <a href="#" class="post-date"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -178,16 +179,16 @@ get_header();
                                         <!-- Single News Area -->
                                         <div class="single-news-area d-flex align-items-center">
                                             <div class="news-thumbnail">
-                                                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/11.jpg'; ?>"" alt="">
+                                                <img src="<?php echo $uri.'/assets/img/bg-img/11.jpg'; ?>"" alt="">
                                             </div>
                                             <div class="news-content">
                                                 <span>July 18, 2018</span>
                                                 <a href="single-post.html">论坛文章一</a>
                                                 <div class="news-meta">
                                                     <a href="#" class="post-author"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
                                                     <a href="#" class="post-date"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -195,16 +196,16 @@ get_header();
                                         <!-- Single A new way to finance your dream homeNews Area -->
                                         <div class="single-news-area d-flex align-items-center">
                                             <div class="news-thumbnail">
-                                                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/12.jpg'; ?>" alt="">
+                                                <img src="<?php echo $uri.'/assets/img/bg-img/12.jpg'; ?>" alt="">
                                             </div>
                                             <div class="news-content">
                                                 <span>July 18, 2018</span>
                                                 <a href="single-post.html">论坛文章三</a>
                                                 <div class="news-meta">
                                                     <a href="#" class="post-author"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
                                                     <a href="#" class="post-date"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -217,16 +218,16 @@ get_header();
                                         <!-- Single News Area -->
                                         <div class="single-news-area d-flex align-items-center">
                                             <div class="news-thumbnail">
-                                                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/11.jpg'; ?>"" alt="">
+                                                <img src="<?php echo $uri.'/assets/img/bg-img/11.jpg'; ?>"" alt="">
                                             </div>
                                             <div class="news-content">
                                                 <span>July 18, 2018</span>
                                                 <a href="single-post.html">论坛文章一</a>
                                                 <div class="news-meta">
                                                     <a href="#" class="post-author"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
                                                     <a href="#" class="post-date"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -234,16 +235,16 @@ get_header();
                                         <!-- Single News Area -->
                                         <div class="single-news-area d-flex align-items-center">
                                             <div class="news-thumbnail">
-                                                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/10.jpg'; ?>"" alt="">
+                                                <img src="<?php echo $uri.'/assets/img/bg-img/10.jpg'; ?>"" alt="">
                                             </div>
                                             <div class="news-content">
                                                 <span>July 18, 2018</span>
                                                 <a href="single-post.html">论坛文章二</a>
                                                 <div class="news-meta">
                                                     <a href="#" class="post-author"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
                                                     <a href="#" class="post-date"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -251,16 +252,16 @@ get_header();
                                         <!-- Single News Area -->
                                         <div class="single-news-area d-flex align-items-center">
                                             <div class="news-thumbnail">
-                                                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/12.jpg'; ?>"" alt="">
+                                                <img src="<?php echo $uri.'/assets/img/bg-img/12.jpg'; ?>"" alt="">
                                             </div>
                                             <div class="news-content">
                                                 <span>July 18, 2018</span>
                                                 <a href="single-post.html">论坛文章三</a>
                                                 <div class="news-meta">
                                                     <a href="#" class="post-author"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
                                                     <a href="#" class="post-date"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -271,16 +272,16 @@ get_header();
                                         <!-- Single News Area -->
                                         <div class="single-news-area d-flex align-items-center">
                                             <div class="news-thumbnail">
-                                                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/10.jpg'; ?>"" alt="">
+                                                <img src="<?php echo $uri.'/assets/img/bg-img/10.jpg'; ?>"" alt="">
                                             </div>
                                             <div class="news-content">
                                                 <span>July 18, 2018</span>
                                                 <a href="single-post.html">论坛文章二</a>
                                                 <div class="news-meta">
                                                     <a href="#" class="post-author"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
                                                     <a href="#" class="post-date"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -288,16 +289,16 @@ get_header();
                                         <!-- Single News Area -->
                                         <div class="single-news-area d-flex align-items-center">
                                             <div class="news-thumbnail">
-                                                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/12.jpg'; ?>"" alt="">
+                                                <img src="<?php echo $uri.'/assets/img/bg-img/12.jpg'; ?>"" alt="">
                                             </div>
                                             <div class="news-content">
                                                 <span>July 18, 2018</span>
                                                 <a href="single-post.html">论坛文章三</a>
                                                 <div class="news-meta">
                                                     <a href="#" class="post-author"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
                                                     <a href="#" class="post-date"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -305,16 +306,16 @@ get_header();
                                         <!-- Single News Area -->
                                         <div class="single-news-area d-flex align-items-center">
                                             <div class="news-thumbnail">
-                                                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/11.jpg'; ?>"" alt="">
+                                                <img src="<?php echo $uri.'/assets/img/bg-img/11.jpg'; ?>"" alt="">
                                             </div>
                                             <div class="news-content">
                                                 <span>July 18, 2018</span>
                                                 <a href="single-post.html">论坛文章一</a>
                                                 <div class="news-meta">
                                                     <a href="#" class="post-author"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/pencil.png'; ?>" alt=""> Jane Smith</a>
                                                     <a href="#" class="post-date"><img
-                                                            src="<?php echo get_template_directory_uri().'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
+                                                            src="<?php echo $uri.'/assets/img/core-img/calendar.png'; ?>" alt=""> April 26</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -339,16 +340,16 @@ get_footer();
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/post.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/container/post.js'; ?>"></script>
 <!-- Popper js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>

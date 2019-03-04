@@ -2,6 +2,7 @@
 /**
  * Template Name: 迪付产品模板
  */
+$uri = get_template_directory_uri();
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -17,13 +18,13 @@
     <title>迪付产品 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
+    <link rel="icon" href="<?php echo $uri.'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/index.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/production.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/common.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/container/index.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/container/production.css'; ?>">
 
 </head>
 
@@ -41,15 +42,15 @@ get_footer();
 <!-- ##### Footer Area Start ##### -->
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
 <!-- Popper js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>

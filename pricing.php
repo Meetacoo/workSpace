@@ -2,6 +2,7 @@
 /**
  * Template Name: 定价模板
  */
+$uri = get_template_directory_uri();
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -17,11 +18,11 @@
     <title>产品定价 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
+    <link rel="icon" href="<?php echo $uri.'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/common.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/common.css'; ?>">
 
 </head>
 
@@ -54,7 +55,7 @@ get_template_part('assets/template/banner/pricing');
     </div>
     <!-- Special Feature Thumbnail -->
     <div class="special-feature-thumbnail bg-img jarallax"
-         style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/20.jpg'; ?>);"></div>
+         style="background-image: url(<?php echo $uri.'/assets/img/bg-img/20.jpg'; ?>);"></div>
 </section>
 <!-- ##### Special Feature Area End ###### -->
 
@@ -62,7 +63,7 @@ get_template_part('assets/template/banner/pricing');
 <section class="special-feature-area style-2 d-flex flex-wrap">
     <!-- Special Feature Thumbnail -->
     <div class="special-feature-thumbnail bg-img jarallax"
-         style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/bg-img/21.jpg'; ?>);"></div>
+         style="background-image: url(<?php echo $uri.'/assets/img/bg-img/21.jpg'; ?>);"></div>
     <!-- Special Feature Content -->
     <div class="special-feature-content section-padding-100">
         <div class="feature-text">
@@ -91,15 +92,15 @@ get_footer();
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
 <!-- Popper js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>

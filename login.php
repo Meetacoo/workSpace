@@ -2,6 +2,7 @@
 /**
  * Template Name: 登录模板
  */
+$uri = get_template_directory_uri();
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -17,11 +18,11 @@
     <title>登录 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/img/core-img/favicon.ico'; ?>">
+    <link rel="icon" href="<?php echo $uri.'/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/style.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/assets/css/container/login.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri.'/assets/css/container/login.css'; ?>">
 
 </head>
 
@@ -35,10 +36,10 @@ get_header();
 
 <!-- ***** login Area Start ***** -->
 <div class="limiter">
-    <div class="container-login100" style="background-image: url('<?php echo get_template_directory_uri().'/assets/img/bg-img/6.jpg'; ?>');">
+    <div class="container-login100" style="background-image: url('<?php echo $uri.'/assets/img/bg-img/6.jpg'; ?>');">
         <div class="wrap-login100 p-t-190 p-b-30 form">
             <div class="login100-form-avatar">
-                <img src="<?php echo get_template_directory_uri().'/assets/img/bg-img/15.jpg'; ?>" alt="AVATAR">
+                <img src="<?php echo $uri.'/assets/img/bg-img/15.jpg'; ?>" alt="AVATAR">
             </div>
             <span class="login100-form-title p-t-20 p-b-45">
                 迪付客户
@@ -169,16 +170,16 @@ get_header();
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri().'/assets/js/container/login.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/container/login.js'; ?>"></script>
 <!-- Popper js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/popper.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/plugins/plugins.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="<?php echo get_template_directory_uri().'/assets/js/active.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>

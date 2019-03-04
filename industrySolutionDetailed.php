@@ -2,6 +2,7 @@
 /**
  * Template Name: 行业解决方案详情模板
  */
+$uri = get_template_directory_uri();
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -17,15 +18,15 @@
     <title>迪付行业解决方案 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo get_template_directory_uri() . '/assets/img/core-img/favicon.ico'; ?>">
+    <link rel="icon" href="<?php echo $uri . '/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/style.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/common.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/fullPage.min.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/component/partner.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri . '/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri . '/assets/css/common.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri . '/assets/css/fullPage.min.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri . '/assets/css/component/partner.css'; ?>">
     <link rel="stylesheet"
-          href="<?php echo get_template_directory_uri() . '/assets/css/container/industrySolutionDetailed.css'; ?>">
+          href="<?php echo $uri . '/assets/css/container/industrySolutionDetailed.css'; ?>">
 </head>
 
 <body>
@@ -41,7 +42,7 @@ get_header();
         <div class="container wow fadeInUp">
             <div class="row fullscreen align-items-center justify-content-between">
                 <div class="col-lg-6 col-md-6 banner-left d-flex">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/assets/img/production/production-jvhe.png'; ?>" alt="">
+                    <img class="img-fluid" src="<?php echo $uri.'/assets/img/production/production-jvhe.png'; ?>" alt="">
                 </div>
                 <div class="col-lg-6 col-md-6 banner-right">
                     <h6>行业解决方案</h6>
@@ -67,7 +68,7 @@ get_header();
         <div class="row align-items-center">
             <div class="col-md-6 stretch-left-1 element-animate">
                 <a href="#" class="video"><img
-                            src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/6.jpg'; ?>" alt=""
+                            src="<?php echo $uri.'/assets/img/bg-img/6.jpg'; ?>" alt=""
                             class="img-fluid"></a>
             </div>
             <div class="col-md-6 stretch-left-1-offset pl-md-5 pl-0 element-animate">
@@ -137,7 +138,7 @@ get_header();
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="about-thumbnail mb-100">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/14.jpg'; ?>" alt="">
+                        <img src="<?php echo $uri . '/assets/img/bg-img/14.jpg'; ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -155,17 +156,17 @@ get_footer();
 <!-- ##### Footer Area Start ##### -->
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri() . '/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri() . '/assets/js/container/Partner.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/container/Partner.js'; ?>"></script>
 <!-- Popper js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap/popper.min.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/plugins/plugins.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/active.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>

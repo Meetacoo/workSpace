@@ -23,7 +23,6 @@ if (function_exists('register_nav_menus')) {
 //    'screen'
 //);
 
-
 function coreTemplate($args)
 {
     ?>
@@ -61,6 +60,7 @@ function coreTemplate($args)
 ;
 function productionTemplate($args, $titles)
 {
+    $uri = get_template_directory_uri();
     ?>
     <div class="single-about-area wow fadeInUp">
         <div class="container">
@@ -81,7 +81,7 @@ function productionTemplate($args, $titles)
                            data-placement="top"
                            title="点击查看详细">
                             <div class="single-about-img">
-                                <img src="<?php printf(get_template_directory_uri() . $value["src"]) ?>" alt="">
+                                <img src="<?php printf($uri.$value["src"]) ?>" alt="">
                             </div>
                             <div class="single-about-text">
                                 <h4><?php printf($value["label"]) ?></h4>
@@ -98,9 +98,10 @@ function productionTemplate($args, $titles)
 ;
 function welcomeTemplate($args)
 {
+    $uri = get_template_directory_uri();
     ?>
     <div class="section"
-         style="background-image: url('<?php printf(get_template_directory_uri() . '/assets/img/bg-img/6.jpg') ?>');">
+         style="background-image: url('<?php printf($uri.'/assets/img/bg-img/6.jpg') ?>');">
         <section class="newsletter-area section-padding-100 bg-img jarallax">
             <div class="container">
                 <div class="row justify-content-center">
@@ -120,9 +121,10 @@ function welcomeTemplate($args)
 ;
 function bannerTemplate($args)
 {
+    $uri = get_template_directory_uri();
     ?>
     <section class="breadcrumb-area bg-img bg-overlay jarallax"
-             style="background-image: url('<?php printf(get_template_directory_uri() . $args["src"]) ?>');">
+             style="background-image: url('<?php printf($uri . $args["src"]) ?>');">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">

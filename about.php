@@ -2,10 +2,10 @@
 /**
  * Template Name: 企业介绍模板
  */
+$uri = get_template_directory_uri();
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="description" content="">
@@ -17,15 +17,14 @@
     <title>企业介绍 - 上海迪付金融有限公司</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo get_template_directory_uri() . '/assets/img/core-img/favicon.ico'; ?>">
+    <link rel="icon" href="<?php echo $uri . '/assets/img/core-img/favicon.ico'; ?>">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/style.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/common.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/container/about.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri . '/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri . '/assets/css/common.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $uri . '/assets/css/container/about.css'; ?>">
 
 </head>
-
 <body>
 <!-- Preloader -->
 <?php
@@ -55,7 +54,7 @@ get_template_part('assets/template/banner/about');
             </div>
             <div class="col-12 col-md-6">
                 <div class="about-thumbnail mb-100">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/14.jpg'; ?>'; ?>" alt="">
+                    <img src="<?php echo $uri . '/assets/img/bg-img/14.jpg'; ?>'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -66,7 +65,7 @@ get_template_part('assets/template/banner/about');
         <div class="row align-items-center">
             <div class="col-12 col-md-6">
                 <div class="about-thumbnail mb-100">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/14.jpg'; ?>'; ?>" alt="">
+                    <img src="<?php echo $uri . '/assets/img/bg-img/14.jpg'; ?>'; ?>" alt="">
                 </div>
             </div>
             <div class="col-12 col-md-6">
@@ -106,12 +105,12 @@ get_template_part('assets/template/banner/about');
     </div>
     <!-- Cta Thumbnail -->
     <div class="cta-thumbnail bg-img jarallax"
-         style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/bg-img/19.jpg'; ?>);"></div>
+         style="background-image: url(<?php echo $uri . '/assets/img/bg-img/19.jpg'; ?>);"></div>
 </section>
 <section class="cta-area d-flex flex-wrap">
     <!-- Cta Thumbnail -->
     <div class="cta-thumbnail bg-img jarallax"
-         style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/bg-img/19.jpg'; ?>);"></div>
+         style="background-image: url(<?php echo $uri . '/assets/img/bg-img/19.jpg'; ?>);"></div>
     <!-- Cta Content -->
     <div class="cta-content">
         <!-- Section Heading -->
@@ -165,7 +164,7 @@ get_template_part('assets/template/banner/about');
             <div class="roadmap-item">
                 <div class="single-roadmap text-center road-left">
                     <div class="single-roadmap-img">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-1.png'; ?>'; ?>"
+                        <img src="<?php echo $uri . '/assets/img/production/roadmap-1.png'; ?>'; ?>"
                              alt="">
                     </div>
                     <div class="space-30"></div>
@@ -182,7 +181,7 @@ get_template_part('assets/template/banner/about');
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <div class="single-roadmap-img">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-2.png'; ?>'; ?>"
+                                <img src="<?php echo $uri . '/assets/img/production/roadmap-2.png'; ?>'; ?>"
                                      alt="">
                             </div>
                         </div>
@@ -199,7 +198,7 @@ get_template_part('assets/template/banner/about');
             <div class="roadmap-item">
                 <div class="single-roadmap text-center road-left">
                     <div class="single-roadmap-img">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-4.png'; ?>'; ?>"
+                        <img src="<?php echo $uri . '/assets/img/production/roadmap-4.png'; ?>'; ?>"
                              alt="">
                     </div>
                     <div class="space-30"></div>
@@ -216,7 +215,7 @@ get_template_part('assets/template/banner/about');
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <div class="single-roadmap-img">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-5.png'; ?>'; ?>"
+                                <img src="<?php echo $uri . '/assets/img/production/roadmap-5.png'; ?>'; ?>"
                                      alt="">
                             </div>
 
@@ -234,7 +233,7 @@ get_template_part('assets/template/banner/about');
             <div class="roadmap-item">
                 <div class="single-roadmap text-center road-left">
                     <div class="single-roadmap-img">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-4.png'; ?>'; ?>"
+                        <img src="<?php echo $uri . '/assets/img/production/roadmap-4.png'; ?>'; ?>"
                              alt="">
                     </div>
                     <div class="space-30"></div>
@@ -251,7 +250,7 @@ get_template_part('assets/template/banner/about');
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <div class="single-roadmap-img">
-                                <img src="<?php echo get_template_directory_uri() . '/assets/img/production/roadmap-5.png'; ?>'; ?>"
+                                <img src="<?php echo $uri . '/assets/img/production/roadmap-5.png'; ?>'; ?>"
                                      alt="">
                             </div>
                         </div>
@@ -284,18 +283,18 @@ get_footer();
 
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri() . '/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
-<script src="<?php echo get_template_directory_uri() . '/assets/js/container/about.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/container/about.js'; ?>"></script>
 
 <!-- Popper js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap/popper.min.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/bootstrap/popper.min.js'; ?>"></script>
 <!-- Bootstrap js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
 <!-- All Plugins js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/plugins/plugins.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/plugins/plugins.js'; ?>"></script>
 <!-- Active js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/active.js'; ?>"></script>
+<script src="<?php echo $uri . '/assets/js/active.js'; ?>"></script>
 </body>
 
 </html>
