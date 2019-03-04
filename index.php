@@ -228,7 +228,7 @@ get_footer();
 <!-- jQuery-2.2.4 js -->
 <script src="<?php echo $uri.'/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
 <script src="<?php echo $uri.'/assets/js/plugins/owl.carousel.min.js'; ?>"></script>
-<script src="<?php echo $uri.'/assets/js/container/partner.js'; ?>"></script>
+<script src="<?php echo $uri.'/assets/js/container/Partner.js'; ?>"></script>
 
 <!-- Popper js -->
 <script src="<?php echo $uri.'/assets/js/bootstrap/popper.min.js'; ?>"></script>
