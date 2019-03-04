@@ -8,38 +8,9 @@
 /**
  * Template Name: 加入我们模板
  */
+$uri = get_template_directory_uri();
+get_template_part('assets/template/joinUs/header');
 ?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title -->
-    <title>加入我们 - 上海迪付金融有限公司</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="<?php echo get_template_directory_uri() . '/assets/assets/img/core-img/favicon.ico'; ?>">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/style.css'; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/common.css'; ?>">
-
-</head>
-
-<body>
-<!-- Preloader -->
-<?php
-get_template_part('assets/template/preloader', 'template');
-get_header();
-get_template_part('assets/template/banner/joinUs');
-?>
-<!-- ##### Hero Area End ##### -->
-
 
 <!-- ##### Features Area Start ###### -->
 <section class="features-area mt-100">
@@ -59,19 +30,19 @@ get_template_part('assets/template/banner/joinUs');
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="300ms">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/2.jpg'; ?>" alt="">
+                    <img src="<?php echo $uri . '/assets/img/bg-img/2.jpg'; ?>" alt="">
                     <h5>We take care of you</h5>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="500ms">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/3.jpg'; ?>" alt="">
+                    <img src="<?php echo $uri . '/assets/img/bg-img/3.jpg'; ?>" alt="">
                     <h5>No documents needed</h5>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="700ms">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/img/bg-img/4.jpg'; ?>" alt="">
+                    <img src="<?php echo $uri . '/assets/img/bg-img/4.jpg'; ?>" alt="">
                     <h5>Fast &amp; easy loans</h5>
                 </div>
             </div>
@@ -84,7 +55,7 @@ get_template_part('assets/template/banner/joinUs');
 <section class="cta-area d-flex flex-wrap">
     <!-- Cta Thumbnail -->
     <div class="cta-thumbnail bg-img jarallax"
-         style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/bg-img/5.jpg'; ?>);"></div>
+         style="background-image: url(<?php echo $uri . '/assets/img/bg-img/5.jpg'; ?>);"></div>
     <!-- Cta Content -->
     <div class="cta-content">
         <!-- Section Heading -->
@@ -115,12 +86,12 @@ get_template_part('assets/template/banner/joinUs');
     </div>
     <!-- Cta Thumbnail -->
     <div class="cta-thumbnail bg-img jarallax"
-         style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/bg-img/5.jpg'; ?>);"></div>
+         style="background-image: url(<?php echo $uri . '/assets/img/bg-img/5.jpg'; ?>);"></div>
 </section>
 <section class="cta-area d-flex flex-wrap">
     <!-- Cta Thumbnail -->
     <div class="cta-thumbnail bg-img jarallax"
-         style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/bg-img/5.jpg'; ?>);"></div>
+         style="background-image: url(<?php echo $uri . '/assets/img/bg-img/5.jpg'; ?>);"></div>
     <!-- Cta Content -->
     <div class="cta-content">
         <!-- Section Heading -->
@@ -161,23 +132,6 @@ get_template_part('assets/template/banner/joinUs');
 
 <!-- ##### Newsletter Area Start ###### -->
 <?php
-get_template_part('assets/template/link', 'template');
-get_template_part('assets/template/welcome/index');
-get_footer();
+get_template_part('assets/template/tab', 'template');
+get_template_part('assets/template/joinUs/footer');
 ?>
-<!-- ##### Footer Area Start ##### -->
-
-<!-- ##### All Javascript Script ##### -->
-<!-- jQuery-2.2.4 js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/jquery/jquery-2.2.4.min.js'; ?>"></script>
-<!-- Popper js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap/popper.min.js'; ?>"></script>
-<!-- Bootstrap js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap/bootstrap.min.js'; ?>"></script>
-<!-- All Plugins js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/plugins/plugins.js'; ?>"></script>
-<!-- Active js -->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/active.js'; ?>"></script>
-</body>
-
-</html>
