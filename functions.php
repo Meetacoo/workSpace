@@ -138,28 +138,28 @@ function bannerTemplate($args)
 
 ;
 function sideBarTemplate($args)
-{ ?>
-    <?php foreach ($args as $key => $value) {
-    if ($value["type"]) { ?>
-        <li class="main-nav-list dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-               aria-expanded="false">
-                <?php echo $value["menu"] ?>
-            </a>
-            <div class="dropdown-menu">
-                <?php foreach ($value["href"] as $key => $href) { ?>
-                    <a class="nav-link" href="<?php echo $href; ?>">
-                        <?php echo $value["submenu"][$key]; ?>
-                    </a>
-                <?php } ?>
-            </div>
-        </li>
-    <?php } else { ?>
-        <li class="main-nav-list">
-            <a class="nav-link" href="<?php echo $value["href"]; ?>">
-                <?php echo $value["menu"]; ?>
-            </a>
-        </li>
-    <?php }
-}
-} ?>
+{
+    foreach ($args as $key => $value) {
+        if ($value["type"]) { ?>
+            <li class="main-nav-list dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                   aria-expanded="false">
+                    <?php echo $value["menu"] ?>
+                </a>
+                <div class="dropdown-menu">
+                    <?php foreach ($value["href"] as $key => $href) { ?>
+                        <a class="nav-link" href="<?php echo $href; ?>">
+                            <?php echo $value["submenu"][$key]; ?>
+                        </a>
+                    <?php } ?>
+                </div>
+            </li>
+        <?php } else { ?>
+            <li class="main-nav-list">
+                <a class="nav-link" href="<?php echo $value["href"]; ?>">
+                    <?php echo $value["menu"]; ?>
+                </a>
+            </li>
+        <?php }
+    }
+};?>
