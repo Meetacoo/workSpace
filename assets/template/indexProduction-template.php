@@ -15,21 +15,21 @@ $homeUri = get_site_url();
 $args = array(
 
     array(
-        'href' => $homeUri.'/production/detailed',
+        'href' => $homeUri.'/production/aggregat-pay',
         'src' => '/assets/img/production/about-icon-1.png',
         'label' => '聚合支付',
         'value' => '实现全渠道支付接入，也可以在已有支付方式上叠加其他支付通道，延伸原有机具业务场景，快速实现全渠道支付.'
     ),
     array(
-        'href' => $homeUri.'/production/detailed',
+        'href' => $homeUri.'/production/authentication',
         'src' => '/assets/img/production/about-icon-2.png',
-        'label' => '聚合支付',
+        'label' => '数据查询',
         'value' => '基于PC平台的网上系统对接和部署，使商户能够通过银行卡和数字钱包在互联网上完成支付交易.'
     ),
     array(
-        'href' => $homeUri.'/production/detailed',
+        'href' => $homeUri.'/production/internetPay',
         'src' => '/assets/img/production/about-icon-3.png',
-        'label' => '数据查询',
+        'label' => '互联网支付',
         'value' => '提供商户入网、商户管理、交易数据查询、对账报表下载等功能.'
     ),
     array(
