@@ -12,7 +12,7 @@ $uri = get_template_directory_uri();
 get_template_part('assets/template/joinUs/header');
 the_post();
 ?>
-<div class="credit-tabs-content mt-50">
+<div class="credit-tabs-content mt-50 mb-50">
     <div class="container">
         <div class="text-center head col-12 mb-4" style="line-height: 50px">
             <h5><?php echo get_the_title(); ?></h5>
